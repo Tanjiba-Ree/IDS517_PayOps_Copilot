@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PAYOPS AI Copilot</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#002353; --ink-2:#0068CE; --paper:#FFFFFF; --surface:#F4F7FB; --line:#D8E1EE;
+  --text:#0E1B33; --muted:#566278; --settled:#1E7A4F; --held:#A8650F; --rejected:#B42318;
+  --ai:#6B46C1; --ai-bg:#F2EDFC; --focus:#0A84F5; --nav-text:#E8EEF8; --nav-muted:#A9BCD9;
+  --chip-settled:#E3F3EA; --chip-held:#FBEFD9; --chip-rejected:#FBE4E2; --chip-cb:#ECE8F7;
+  color-scheme:light;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ink:#061733; --ink-2:#2F86E8; --paper:#0F1726; --surface:#16213A; --line:#27355A;
+    --text:#E3E9F4; --muted:#9AA8C2; --settled:#5BC08C; --held:#E3A548; --rejected:#F07B70;
+    --ai:#B9A4F5; --ai-bg:#241D3F; --focus:#5AA9FF; --nav-text:#E8EEF8; --nav-muted:#8FA3C4;
+    --chip-settled:#1D3A2B; --chip-held:#3D2F17; --chip-rejected:#3F201E; --chip-cb:#2B2742;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#061733; --ink-2:#2F86E8; --paper:#0F1726; --surface:#16213A; --line:#27355A;
+  --text:#E3E9F4; --muted:#9AA8C2; --settled:#5BC08C; --held:#E3A548; --rejected:#F07B70;
+  --ai:#B9A4F5; --ai-bg:#241D3F; --focus:#5AA9FF; --nav-text:#E8EEF8; --nav-muted:#8FA3C4;
+  --chip-settled:#1D3A2B; --chip-held:#3D2F17; --chip-rejected:#3F201E; --chip-cb:#2B2742;
+  color-scheme:dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--text);font:15px/1.5 "IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;font-variant-numeric:tabular-nums}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.app{display:grid;grid-template-columns:232px 1fr;min-height:100vh}
+nav.side{background:var(--ink);color:var(--nav-text);padding:24px 16px;display:flex;flex-direction:column;gap:4px;position:sticky;top:env(safe-area-inset-top,0px);height:100vh;overflow-y:auto;overscroll-behavior:contain}
+.brand-card{background:#fff;border-radius:12px;padding:14px 16px 12px;margin:0 2px 8px}
+.brand-card img{display:block;width:100%;height:auto;max-height:130px;object-fit:contain}
+nav.side>*{flex-shrink:0}
+@media (min-width:821px) and (max-height:820px){nav.side{padding:14px 14px}.brand-card{padding:8px 10px;margin-bottom:6px}.brand-card img{max-height:80px}.brand-sub{display:none}nav.side a{padding:7px 10px}}
+.brand-mini{display:none}
+h1,h2,.kpi .v{font-family:Montserrat,"IBM Plex Sans",system-ui,Arial,sans-serif}
+.brand-sub{color:var(--nav-muted);font-size:13px;padding:2px 10px 18px}
+nav.side a{color:var(--nav-text);text-decoration:none;padding:9px 10px;border-radius:6px;display:flex;justify-content:space-between;align-items:center}
+nav.side a:hover{background:rgba(255,255,255,.07)}
+nav.side a[aria-current="page"]{background:rgba(255,255,255,.14);font-weight:600}
+.count{font-size:12px;background:rgba(255,255,255,.16);border-radius:10px;padding:1px 8px;min-width:24px;text-align:center}
+.side-foot{margin-top:auto;font-size:12.5px;color:var(--nav-muted);padding:10px}
+.side-foot button{background:none;border:1px solid rgba(255,255,255,.25);color:var(--nav-text);border-radius:6px;padding:6px 10px;cursor:pointer;margin-top:8px;width:100%}
+main{padding:28px 32px 48px;max-width:1180px;width:100%}
+h1{font-size:26px;margin:0 0 4px;letter-spacing:-.01em}
+.lede{color:var(--muted);margin:0 0 22px;max-width:70ch}
+h2{font-size:17px;margin:0 0 12px}
+.row{display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px}
+.grow{flex:1 1 360px;min-width:0}
+.btn{border:1px solid var(--ink-2);background:var(--ink-2);color:#fff;border-radius:7px;padding:8px 14px;cursor:pointer;font-weight:500}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--text);border-color:var(--line)}
+.btn.danger{background:var(--rejected);border-color:var(--rejected)}
+.btn.ai{background:var(--ai);border-color:var(--ai);color:#fff}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+:root[data-theme="dark"] .btn.ai{color:#141C1B}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn.ai{color:#141C1B}}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;align-items:center}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-weight:600;background:var(--surface);position:sticky;top:0}
+td.num,th.num{text-align:right}
+tr:last-child td{border-bottom:none}
+.id{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-size:13px}
+.chip{display:inline-block;font-size:12px;font-weight:600;border-radius:5px;padding:2px 7px}
+.st-SETTLED{background:var(--chip-settled);color:var(--settled)}
+.st-PENDING_REVIEW{background:var(--chip-held);color:var(--held)}
+.st-REJECTED{background:var(--chip-rejected);color:var(--rejected)}
+.st-CHARGED_BACK{background:var(--chip-cb);color:var(--ai)}
+.risk{font-weight:600}.risk.hi{color:var(--rejected)}.risk.md{color:var(--held)}
+form.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+label{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--muted)}
+label.check{flex-direction:row;align-items:center;gap:8px;color:var(--text);font-size:14px}
+input,select,textarea{background:var(--paper);border:1px solid var(--line);border-radius:7px;padding:8px 10px;font-size:14px;color:var(--text)}
+textarea{min-height:96px;resize:vertical;width:100%}
+.result{margin-top:12px;padding:10px 12px;border-radius:7px;font-size:14px}
+.result.ok{background:var(--chip-settled);color:var(--settled)}
+.result.warn{background:var(--chip-held);color:var(--held)}
+.result.err{background:var(--chip-rejected);color:var(--rejected)}
+.ai-card{background:var(--ai-bg);border:1px solid var(--ai);border-radius:10px;padding:14px 16px;margin-top:12px}
+.ai-card .who{color:var(--ai);font-weight:600;font-size:13px;margin-bottom:6px}
+.ai-card ul{margin:6px 0 0;padding-left:20px}
+.dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 14px;font-size:14px;margin:0}
+.dl dt{color:var(--muted)}.dl dd{margin:0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:16px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.kpi .v{font-size:26px;font-weight:700;letter-spacing:-.01em}
+.kpi .l{color:var(--muted);font-size:13px}
+.empty{color:var(--muted);padding:18px;text-align:center}
+.chat{display:flex;flex-direction:column;gap:10px;max-height:56vh;overflow-y:auto;padding:4px 2px 8px}
+.msg{max-width:78ch;padding:10px 14px;border-radius:10px;white-space:pre-wrap}
+.msg.me{align-self:flex-end;background:var(--ink-2);color:#fff}
+.msg.bot{align-self:flex-start;background:var(--ai-bg);border:1px solid var(--ai)}
+.chat-form{display:flex;gap:8px;margin-top:10px}
+.chat-form input{flex:1}
+.note{font-size:13px;color:var(--muted)}
+.status-line{font-size:13px;color:var(--ai);margin-top:8px;min-height:18px}
+.list{list-style:none;margin:0;padding:0}
+.list li{padding:8px 0;border-bottom:1px solid var(--line);font-size:14px}
+.list li:last-child{border-bottom:none}
+#decision-list{max-height:340px;overflow-y:auto}
+.btn.small{padding:4px 10px;font-size:13px}
+.reopen-form{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.reopen-form input{flex:1 1 140px;padding:5px 8px}
+section[hidden]{display:none}
+@media (max-width:820px){
+  .app{grid-template-columns:minmax(0,1fr)}
+  nav.side{position:sticky;top:0;height:auto;flex-direction:row;overflow-x:auto;overflow-y:hidden;padding:10px 12px;gap:4px;z-index:10;padding-top:calc(10px + env(safe-area-inset-top,0px));top:0}
+  .brand-card,.brand-sub,.side-foot{display:none}
+  .brand-mini{display:block;flex:0 0 auto;width:52px;height:38px;object-fit:contain;background:#fff;border-radius:8px;padding:3px 5px;margin-right:6px;align-self:center}
+  nav.side a{white-space:nowrap}
+  main{padding:20px 16px 40px}
+  body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:11;background:var(--ink)}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.whoami{margin:4px 2px 10px;padding:10px 12px;border-radius:9px;background:rgba(255,255,255,.08);font-size:12.5px;color:var(--nav-muted)}
+.whoami b{display:block;font-size:14px;color:var(--nav-text)}
+.whoami .role{display:inline-block;font-size:11.5px;font-weight:600;border-radius:5px;padding:1px 7px;background:rgba(255,255,255,.18);color:var(--nav-text);margin:3px 0}
+.whoami button{margin-top:6px;background:none;border:1px solid rgba(255,255,255,.25);color:var(--nav-text);border-radius:6px;padding:4px 9px;cursor:pointer;font-size:12px}
+.signin{position:fixed;inset:0;background:rgba(0,20,50,.55);display:flex;align-items:center;justify-content:center;z-index:50;padding:16px}
+.signin[hidden]{display:none}
+.signin .box{background:var(--paper);color:var(--text);border-radius:14px;max-width:520px;width:100%;padding:24px;box-shadow:0 10px 40px rgba(0,0,0,.3)}
+.signin .users{display:grid;gap:8px;margin:14px 0 0}
+.signin .users button{display:flex;justify-content:space-between;align-items:center;gap:10px;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:9px;padding:10px 12px;cursor:pointer;color:var(--text)}
+.signin .users button:hover{border-color:var(--ink-2)}
+.locked{font-size:13px;color:var(--muted);margin-top:8px}
+.badge-ai{display:inline-block;font-size:11.5px;font-weight:600;border-radius:5px;padding:1px 6px;background:var(--ai-bg);color:var(--ai);border:1px solid var(--ai)}
+.st-CONTESTED{background:var(--chip-cb);color:var(--ai)}
+.st-REFUNDED{background:var(--surface);color:var(--muted);border:1px solid var(--line)}
+.ok-mark{color:var(--settled);font-weight:700}
+.whoami .preview{display:flex;flex-direction:column;gap:3px;margin-top:8px;font-size:12px;color:var(--nav-muted)}
+.whoami select{font-size:12.5px;padding:4px 6px;border-radius:6px}
+.whoami .preview-on{display:block;margin-top:6px;color:#F2C46D;font-size:12px}
+</style>
+</head>
+<body>
+<div class="app">
+<nav class="side" aria-label="Screens">
+  <div class="brand-card"><img src="data:image/png;base64,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" width="440" height="320" alt="PAYOPS AI Operations Assistant logo"></div>
+  <div class="brand-sub">Copilot: payments operations with AI advice</div>
+  <img class="brand-mini" src="data:image/png;base64,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" width="128" height="90" alt="PAYOPS AI">
+  <div class="whoami" id="whoami">Signing in…</div>
+  <a href="#ledger" data-view="ledger">Ledger <span class="count" id="c-ledger">0</span></a>
+  <a href="#review" data-view="review">Review queue <span class="count" id="c-review">0</span></a>
+  <a href="#dashboard" data-view="dashboard">Dashboard</a>
+  <a href="#disputes" data-view="disputes">Disputes <span class="count" id="c-disputes">0</span></a>
+  <a href="#chat" data-view="chat">Ops chat</a>
+  <a href="#audit" data-view="audit">Audit log</a>
+  <a href="#tests" data-view="tests">Self-test</a>
+  <a href="#eval" data-view="eval">AI evaluation</a>
+  <a href="#team" data-view="team">Team and roles</a>
+  <div class="side-foot">IDS 517 final project · Tanjiba Sultana
+    <button type="button" id="reset">Reset all data</button>
+  </div>
+</nav>
+<main>
+
+<!-- ================= M1 Ledger (Tanjiba) ================= -->
+<section id="v-ledger" data-section="ledger">
+  <h1>Ledger</h1>
+  <p class="lede">Capture a payment and the rules engine validates it, calculates the fee and scores risk. Scores of 70 or more go to the review queue.</p>
+  <div class="panel" style="margin-bottom:16px">
+    <h2>New payment</h2>
+    <div class="toolbar">
+      <label style="flex-direction:row;align-items:center;gap:8px;color:var(--text)">Type
+        <select id="ptype"><option value="card">Card</option><option value="wallet">Mobile wallet</option><option value="bank">Bank transfer</option></select>
+      </label>
+      <button class="btn ghost" type="button" id="fill">Fill test data</button>
+    </div>
+    <form class="grid" id="pform" autocomplete="off"></form>
+    <div class="toolbar" style="margin-top:12px;margin-bottom:0">
+      <button class="btn" type="button" id="submit">Submit payment</button>
+      <button class="btn ghost" type="button" id="sample">Load sample business day</button>
+    </div>
+    <p class="locked" id="submit-lock"></p>
+    <div id="presult"></div>
+  </div>
+  <div class="panel" style="margin-bottom:16px">
+    <h2>Refund a payment</h2>
+    <p class="note">Settled card and wallet payments only; bank transfers cannot be refunded (RTP is irrevocable). Analysts and managers only.</p>
+    <div class="toolbar" style="margin-top:10px;margin-bottom:0">
+      <label style="flex-direction:row;align-items:center;gap:8px;color:var(--text)">Payment <select id="rf-payment"></select></label>
+      <label style="flex-direction:row;align-items:center;gap:8px;color:var(--text)">Amount <input id="rf-amount" type="number" step="0.01" min="0" style="width:120px"></label>
+      <label style="flex-direction:row;align-items:center;gap:8px;color:var(--text)">Reason <input id="rf-reason" placeholder="Item returned"></label>
+      <button class="btn" type="button" id="rf-go">Refund</button>
+    </div>
+    <p class="locked" id="rf-lock"></p>
+    <div id="rf-result"></div>
+  </div>
+  <div class="toolbar">
+    <label style="flex-direction:row;align-items:center;gap:8px;color:var(--text)">Show <select id="ledger-filter"><option value="">All payments</option><option value="SETTLED">Settled</option><option value="PENDING_REVIEW">Pending review</option><option value="REJECTED">Rejected</option><option value="CONTESTED">Contested</option><option value="CHARGED_BACK">Charged back</option><option value="REFUNDED">Refunded</option></select></label>
+    <span class="note" id="ledger-count"></span><span class="note" id="sync-note"></span>
+  </div>
+  <div class="table-wrap"><table id="ledger-table"></table></div>
+</section>
+
+<!-- ================= M2 Review queue ================= -->
+<section id="v-review" data-section="review" hidden>
+  <h1>Review queue</h1>
+  <p class="lede">Held payments wait here, oldest first. Ask the AI copilot for a recommendation; you make the decision. Chargebacks always come here, to be accepted or contested.</p>
+  <div class="panel" style="margin-bottom:16px">
+    <h2>AI triage agent</h2>
+    <p class="note">The agent works through every held payment on its own: for each one it calls the ledger tools (payment, customer history, risk rules, and the dispute playbook for chargebacks) and leaves a recommendation. It never approves or rejects; an analyst decides each payment.</p>
+    <div class="toolbar" style="margin-top:10px;margin-bottom:0"><button class="btn ai" type="button" id="triage-go">Run triage agent on the whole queue</button><button class="btn ghost" type="button" id="triage-stop" hidden>Stop</button></div>
+    <div class="status-line" id="triage-status"></div>
+  </div>
+  <div class="row">
+    <div class="panel grow" id="next-panel"></div>
+    <div class="panel" style="flex:1 1 300px">
+      <h2>Waiting</h2>
+      <ol class="list" id="queue-list"></ol>
+      <h2 style="margin-top:18px">Decision history</h2>
+      <p class="note" style="margin:-6px 0 4px">Reopen any decision whose payment hasn’t changed since; it goes back to the front of the queue.</p>
+      <ul class="list" id="decision-list"></ul>
+      <button class="btn ghost" type="button" id="undo" style="margin-top:10px">Undo last decision</button>
+      <div id="undo-result"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= M3 Dashboard ================= -->
+<section id="v-dashboard" data-section="dashboard" hidden>
+  <h1>Settlement dashboard</h1>
+  <p class="lede">End-of-day totals by payment type. Chargebacks count as money leaving the business.</p>
+  <div class="kpis" id="kpis"></div>
+  <div class="row">
+    <div class="panel grow"><h2>Gross settled by payment type</h2><div id="chart"></div></div>
+    <div class="panel grow"><h2>Payments by hour</h2><div id="trend"></div></div>
+    <div class="panel grow">
+      <h2>End-of-day summary</h2>
+      <p class="note">The AI reads the totals below and the held items, then writes a short brief for the ops manager.</p>
+      <button class="btn ai" type="button" id="summary">Write AI summary</button>
+      <div id="summary-out"></div>
+    </div>
+  </div>
+  <div class="table-wrap" style="margin-top:16px"><table id="totals-table"></table></div>
+  <div class="toolbar" style="margin-top:12px">
+    <button class="btn ghost" type="button" id="export-tx">Export transactions CSV</button>
+    <button class="btn ghost" type="button" id="export-audit">Export audit log CSV</button>
+    <button class="btn ghost" type="button" id="export-report">Download end-of-day report</button>
+    <span class="note" id="export-note"></span>
+    <button class="btn ghost" type="button" id="drive-save" hidden>Save report to Google Drive</button>
+  </div>
+  <div class="note" id="drive-save-out" style="margin-top:6px"></div>
+</section>
+
+<!-- ================= M4 Disputes ================= -->
+<section id="v-disputes" data-section="disputes" hidden>
+  <h1>Disputes</h1>
+  <p class="lede">Log a customer complaint against a settled card payment. The AI suggests a reason code and drafts the response; nothing is escalated until you approve.</p>
+  <div class="row">
+    <div class="panel grow">
+      <h2>New dispute</h2>
+      <label>Disputed card payment<select id="d-payment"></select></label>
+      <label style="margin-top:10px">Customer complaint<textarea id="d-complaint" placeholder="Example: I ordered a desk lamp three weeks ago and it never arrived."></textarea></label>
+      <div class="toolbar" style="margin-top:10px">
+        <button class="btn ai" type="button" id="d-classify">Suggest reason code</button>
+        <button class="btn ai" type="button" id="d-draft" disabled>Draft response</button>
+      </div>
+      <div class="toolbar" style="margin-top:8px;margin-bottom:0"><button class="btn ghost" type="button" id="d-drive" hidden>Find evidence in Google Drive</button></div>
+      <div id="d-drive-out"></div>
+      <div id="d-ai"></div>
+      <div class="toolbar" style="margin-top:12px">
+        <label style="flex-direction:row;align-items:center;gap:8px;color:var(--text)">Reason code
+          <select id="d-code"></select>
+        </label>
+        <button class="btn" type="button" id="d-escalate">Approve and escalate</button>
+      </div>
+      <div id="d-result"></div>
+    </div>
+    <div class="panel" style="flex:1 1 300px"><h2>Escalated cases</h2><ul class="list" id="case-list"></ul></div>
+  </div>
+</section>
+
+<!-- ================= Shared: Ops chat ================= -->
+<section id="v-chat" data-section="chat" hidden>
+  <h1>Ops chat</h1>
+  <p class="lede">Ask about PayOps rules or today’s payments. The assistant looks up the ledger with its tools and calculates fees and risk with the rules engine, so every number comes from the app.</p>
+  <div class="panel">
+    <div class="chat" id="chat-log" aria-live="polite"></div>
+    <div class="status-line" id="chat-status"></div>
+    <form class="chat-form" id="chat-form">
+      <input id="chat-input" placeholder="Why is WAL-0003 held? What is the fee on a $3,000 online international card payment?" autocomplete="off">
+      <button class="btn ai" type="submit" id="chat-send">Ask</button>
+    </form>
+  </div>
+</section>
+
+<!-- ================= Shared: Audit log ================= -->
+<section id="v-audit" data-section="audit" hidden>
+  <h1>Audit log</h1>
+  <p class="lede">Every user action and every AI recommendation, newest first.</p>
+  <div class="toolbar"><label style="flex-direction:row;align-items:center;gap:8px;color:var(--text)">Show
+    <select id="audit-filter"><option value="">All</option><option>PAYMENT</option><option>REVIEW</option><option>AI</option><option>DISPUTE</option><option>DRIVE</option><option>SYSTEM</option></select></label></div>
+  <div class="table-wrap"><table id="audit-table"></table></div>
+</section>
+
+<!-- ================= Shared: built-in self-test ================= -->
+<section id="v-tests" data-section="tests" hidden>
+  <h1>Self-test</h1>
+  <p class="lede">Runs every automated check on the rules engine, refunds, chargebacks, roles, Reopen and the duplicate guard, and compares each result with its expected answer. Your data is saved first and put back afterwards. AI features are tested live and are not part of this run.</p>
+  <div class="toolbar">
+    <button class="btn" type="button" id="run-tests">Run all tests</button>
+    <button class="btn ghost" type="button" id="export-tests" disabled>Export results CSV</button>
+    <span class="note" id="tests-note"></span>
+  </div>
+  <div class="kpis" id="tests-kpis"></div>
+  <div class="table-wrap"><table id="tests-table"><tbody><tr><td class="empty">Click Run all tests. It takes about a second.</td></tr></tbody></table></div>
+</section>
+<!-- ================= Shared: automated AI evaluation (FR-20) ================= -->
+<section id="v-eval" data-section="eval" hidden>
+  <h1>AI evaluation</h1>
+  <p class="lede">Asks the Ops chat agent the 12 HW8 test questions and scores each answer against the known correct value. Results are saved so the team can compare runs.</p>
+  <div class="toolbar">
+    <button class="btn ai" type="button" id="eval-go">Run AI evaluation</button>
+    <button class="btn ghost" type="button" id="eval-stop" hidden>Stop</button>
+    <button class="btn ghost" type="button" id="eval-export" disabled>Export results CSV</button>
+  </div>
+  <p class="locked" id="eval-lock"></p>
+  <div class="status-line" id="eval-status"></div>
+  <div class="kpis" id="eval-kpis"></div>
+  <div class="table-wrap"><table id="eval-table"><tbody><tr><td class="empty">Click Run AI evaluation. Each question takes a few seconds.</td></tr></tbody></table></div>
+  <h2 style="margin-top:18px">Past runs</h2>
+  <ul class="list" id="eval-history"></ul>
+</section>
+
+<!-- ================= Shared: team and roles (FR-18) ================= -->
+<section id="v-team" data-section="team" hidden>
+  <h1>Team and roles</h1>
+  <p class="lede">Who can do what. Ops staff capture payments and log disputes; analysts decide held payments, refunds, chargebacks and reopens; managers can do everything and manage roles. Nobody can approve a payment they captured themselves (maker-checker).</p>
+  <div class="panel" id="team-panel"></div>
+  <h2 style="margin-top:18px">Permissions</h2>
+  <div class="table-wrap"><table id="perm-table"></table></div>
+</section>
+
+<div class="signin" id="signin" hidden role="dialog" aria-modal="true" aria-labelledby="signin-title">
+  <div class="box">
+    <h2 id="signin-title">Sign in to PAYOPS AI Copilot</h2>
+    <p class="note">This offline copy uses a demo sign-in: choose a demo user to see the app with their role. On claude.ai you are signed in with your Claude account instead.</p>
+    <div class="users" id="signin-users"></div>
+  </div>
+</div>
+</main>
+</div>
+
+<script>
+"use strict";
+/* =====================================================================
+   Shared helpers and state
+   ===================================================================== */
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const money = v => (v < 0 ? "−$" : "$") + Math.abs(v).toLocaleString("en-US", {minimumFractionDigits: 2, maximumFractionDigits: 2});
+const round2 = v => Math.round(v * 100) / 100;
+const pad2 = n => String(n).padStart(2, "0");
+const nowStr = (d = new Date()) => `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())} ${pad2(d.getHours())}:${pad2(d.getMinutes())}:${pad2(d.getSeconds())}`;
+const KEY = "payops-copilot-v1";
+let S = load();
+S.decisions.forEach((d, i) => { if (!d.id) d.id = "D" + String(i + 1).padStart(4, "0"); }); // older saved data
+function blank() { return { seq: {CRD:0, WAL:0, BNK:0, CBK:0}, payments: [], decisions: [], audit: [], cases: [], qseq: 0 }; }
+function load() { try { const raw = localStorage.getItem(KEY); return raw ? JSON.parse(raw) : blank(); } catch (e) { return blank(); } }
+/* Who is signed in (FR-18). mode: pending | shared (Claude account) | demo (offline copy) */
+let ME = { id: null, name: "", role: null, mode: "pending" };
+let TESTING = false;          // self-test runs never write to the shared database
+let SYSTEM_ACTOR = false;     // true while the sample day is loading
+let SHARED = null;            // shared team database on claude.ai (FR-19), or null = this browser only
+let REMOTE_AUDIT = [];        // audit entries read from the shared database
+let lastWrite = 0, writeTimer = null;
+function setSync(msg) { const el = $("#sync-note"); if (el) el.textContent = msg; }
+function save() {
+  if (TESTING) return;
+  if (SHARED) {               // one ledger for the whole team
+    clearTimeout(writeTimer);
+    writeTimer = setTimeout(() => {
+      lastWrite = Date.now();
+      const state = Object.assign({}, S, { audit: [] });
+      SHARED.doc("payops/state").set({ state: JSON.stringify(state), updatedAt: lastWrite, updatedBy: ME.id || "" })
+        .then(() => setSync("Saved to the shared team database."))
+        .catch(e => setSync("Could not save to the shared database (" + ((e && e.code) || "error") + ")."));
+    }, 250);
+    return;
+  }
+  try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {}
+}
+
+/* ---------- Shared: audit log ---------- */
+function audit(category, action, details) {
+  const e = { time: nowStr(), category, action, details, actor: ME.name || "" };
+  if (SHARED && !TESTING) {   // append-only: entries are added, never rewritten
+    SHARED.collection("audit").add(Object.assign({ at: Date.now() }, e)).catch(() => {});
+    REMOTE_AUDIT.push(e);
+    return;
+  }
+  S.audit.push(e);
+  save();
+}
+const auditEntries = () => (SHARED && !TESTING ? REMOTE_AUDIT : S.audit);
+
+/* =====================================================================
+   Shared: sign-in and roles (FR-18) and the team database (FR-19)
+   ===================================================================== */
+const ROLE_NAME = { ops: "Ops staff", analyst: "Analyst", manager: "Manager", viewer: "Viewer (read only)" };
+const PERMS = {
+  capture:  { roles: ["ops", "analyst", "manager"], text: "capture payments" },
+  dispute:  { roles: ["ops", "analyst", "manager"], text: "log disputes and ask the AI" },
+  decide:   { roles: ["analyst", "manager"], text: "approve, reject, accept or contest held payments" },
+  reopen:   { roles: ["analyst", "manager"], text: "reopen decisions" },
+  refund:   { roles: ["analyst", "manager"], text: "refund payments" },
+  escalate: { roles: ["analyst", "manager"], text: "escalate disputes into chargebacks" },
+  evaluate: { roles: ["analyst", "manager"], text: "run the AI evaluation" },
+  drive_save: { roles: ["analyst", "manager"], text: "save reports to Google Drive" },
+  sample:   { roles: ["manager"], text: "load or replace the sample day" },
+  reset:    { roles: ["manager"], text: "reset all data" },
+  team:     { roles: ["manager"], text: "change team roles" }
+};
+const allowed = (role, action) => !!(PERMS[action] && PERMS[action].roles.includes(role));
+const can = action => allowed(ME.role, action);
+function lockText(action) {
+  if (!ME.role) return "Sign in first.";
+  const PLURAL = { ops: "ops staff", analyst: "analysts", manager: "managers" };
+  const rs = PERMS[action].roles.map(r => PLURAL[r]);
+  const who = rs.length > 1 ? rs.slice(0, -1).join(", ") + " and " + rs[rs.length - 1] : rs[0];
+  return `Only ${who} can ${PERMS[action].text}. You are signed in as ${ME.name || "someone"} (${ROLE_NAME[ME.role]}).`;
+}
+function lockNote(sel, action) { const el = $(sel); if (el) el.textContent = can(action) ? "" : lockText(action); }
+/* Maker-checker: the person who captured a payment cannot approve it. */
+function makerCheckerBlock(p, userId) { return !!(p && userId && p.createdBy && p.createdBy !== "system" && p.createdBy === userId); }
+const DEMO_USERS = [
+  { id: "demo-tanjiba", name: "Tanjiba Sultana", role: "manager", note: "Developer and product owner" },
+  { id: "demo-maria", name: "Maria Lopez (demo)", role: "manager", note: "Operations manager" },
+  { id: "demo-daniel", name: "Daniel Kim (demo)", role: "analyst", note: "Fraud analyst" },
+  { id: "demo-priya", name: "Priya Shah (demo)", role: "analyst", note: "Disputes analyst" },
+  { id: "demo-ops", name: "Front-line ops (demo)", role: "ops", note: "Captures payments and logs complaints" }
+];
+let TEAM = { roles: {}, members: {} };
+let USER = null;
+let REAL = null;   // the signed-in person, kept while a manager previews another role
+/* Managers can preview the app as another role on claude.ai, to test it without other accounts.
+   Every preview is logged, and actions carry a "previewing" label so they are never mistaken for a teammate's. */
+function setPreview(role, quiet) {
+  if (!REAL || REAL.role !== "manager") return;
+  if (!role) ME = Object.assign({}, REAL);
+  else ME = { id: REAL.id + ":preview-" + role, name: `${REAL.name} (previewing ${ROLE_NAME[role]})`, role, mode: REAL.mode, preview: role, isMgr: false };
+  audit("SYSTEM", "PREVIEW_ROLE", role ? `${REAL.name} started previewing the app as ${ROLE_NAME[role]}` : `${REAL.name} stopped previewing`);
+  if (!quiet) renderAll();
+}
+function signInDemo(u, quiet) {
+  if (!u) return;
+  ME = { id: u.id, name: u.name, role: u.role, mode: "demo" };
+  try { localStorage.setItem(KEY + "-user", u.id); } catch (e) {}
+  $("#signin").hidden = true;
+  if (!quiet) audit("SYSTEM", "SIGN_IN", `${u.name} signed in as ${ROLE_NAME[u.role]} (demo sign-in)`);
+  renderAll();
+}
+function startDemoSignIn() {
+  let saved = null; try { saved = localStorage.getItem(KEY + "-user"); } catch (e) {}
+  const u = DEMO_USERS.find(x => x.id === saved);
+  if (u) return signInDemo(u, true);
+  ME = { id: null, name: "", role: null, mode: "demo" };
+  showSignIn();
+}
+function showSignIn() {
+  $("#signin-users").innerHTML = DEMO_USERS.map(u => `<button type="button" data-user="${u.id}"><span><b>${esc(u.name)}</b><br><span class="note">${esc(u.note)}</span></span><span class="chip st-SETTLED">${ROLE_NAME[u.role]}</span></button>`).join("");
+  $("#signin").hidden = false;
+  const first = $("#signin-users button"); if (first) first.focus();
+}
+function signOut() {
+  if (ME.mode !== "demo") return;
+  audit("SYSTEM", "SIGN_OUT", `${ME.name} signed out`);
+  try { localStorage.removeItem(KEY + "-user"); } catch (e) {}
+  ME = { id: null, name: "", role: null, mode: "demo" };
+  renderAll(); showSignIn();
+}
+$("#signin-users").onclick = e => { const b = e.target.closest("[data-user]"); if (b) signInDemo(DEMO_USERS.find(u => u.id === b.dataset.user)); };
+/* On claude.ai: sign in with the viewer's Claude account and use the shared team database. */
+async function connectTeam() {
+  if (!window.claude) return false;
+  const [user, db] = await Promise.all([window.claude.use("user"), window.claude.use("db")]);
+  if (!user || !db) return false;
+  const id = await user.id();
+  if (!id) return false;
+  USER = user;
+  const isMgr = await user.canEdit().catch(() => false);
+  const canWrite = await user.can("data.write").catch(() => null);
+  let name = "You";
+  try { const ps = await user.profiles([id]); name = (ps[id] && ps[id].name) || "You"; } catch (e) {}
+  ME = { id, name, role: isMgr ? "manager" : (canWrite === false ? "viewer" : "ops"), mode: "shared", isMgr, canWrite };
+  REAL = Object.assign({}, ME);
+  SHARED = db;
+  S = blank();                       // the team database replaces this browser's copy
+  if (canWrite !== false) db.doc("members/" + id).set({ id, lastSeen: Date.now() }).catch(() => {});
+  db.doc("payops/team").onSnapshot(snap => {
+    TEAM.roles = (snap.exists && snap.data().roles) || {};
+    if (!ME.preview && !ME.isMgr && ME.role !== "viewer") { ME.role = TEAM.roles[ME.id] || "ops"; if (REAL) REAL.role = ME.role; }
+    renderAll();
+  }, () => {});
+  db.collection("members").onSnapshot(snap => {
+    TEAM.members = {}; snap.docs.forEach(d => { TEAM.members[d.id] = d.data() || {}; });
+    renderTeam();
+  }, () => {});
+  let first = true;
+  const slow = setTimeout(() => { if (first) setSync("The shared database is slow to answer; still trying."); }, 10000);
+  db.doc("payops/state").onSnapshot(snap => {
+    clearTimeout(slow);
+    if (snap.metadata && snap.metadata.hasPendingWrites) return;
+    const d = snap.exists ? snap.data() : null;
+    if (d && d.state && (first || d.updatedBy !== ME.id)) {
+      try { S = Object.assign(blank(), JSON.parse(d.state)); S.audit = []; } catch (e) {}
+      advice = {};
+    }
+    first = false; setSync("Shared team data: everyone signed in sees the same ledger."); renderAll();
+  }, e => setSync("Shared database unavailable (" + ((e && e.code) || "error") + ")."));
+  db.collection("audit").orderBy("at", "desc").limit(300).onSnapshot(snap => {
+    REMOTE_AUDIT = snap.docs.map(x => x.data()).reverse(); renderAudit();
+  }, () => {});
+  audit("SYSTEM", "SIGN_IN", `${name} signed in with a Claude account as ${ROLE_NAME[ME.role]}`);
+  return true;
+}
+function renderWho() {
+  const el = $("#whoami"); if (!el) return;
+  if (ME.mode === "pending") { el.textContent = "Signing in…"; return; }
+  if (!ME.role) { el.innerHTML = `<b>Not signed in</b><button type="button" id="who-in">Sign in</button>`; $("#who-in").onclick = showSignIn; return; }
+  const canPreview = ME.mode === "shared" && REAL && REAL.role === "manager";
+  el.innerHTML = `<b>${esc(ME.name)}</b><span class="role">${ROLE_NAME[ME.role]}</span><br>${ME.mode === "shared" ? "Claude account · shared team data" : "Demo sign-in · this browser"}${ME.mode === "demo" ? `<br><button type="button" id="who-out">Switch user</button>` : ""}${canPreview ? `<label class="preview">Preview as <select id="who-preview"><option value="">Myself (Manager)</option><option value="ops">Ops staff</option><option value="analyst">Analyst</option></select></label>${ME.preview ? `<span class="preview-on">Preview mode: your actions are logged with this label</span>` : ""}` : ""}`;
+  if ($("#who-out")) $("#who-out").onclick = signOut;
+  if ($("#who-preview")) { $("#who-preview").value = ME.preview || ""; $("#who-preview").onchange = e => setPreview(e.target.value); }
+}
+async function renderTeam() {
+  const panel = $("#team-panel"); if (!panel) return;
+  $("#perm-table").innerHTML = `<thead><tr><th>Action</th><th class="num">Ops staff</th><th class="num">Analyst</th><th class="num">Manager</th></tr></thead><tbody>${
+    Object.keys(PERMS).map(a => `<tr><td>${esc(PERMS[a].text.replace(/^./, c => c.toUpperCase()))}</td>${["ops", "analyst", "manager"].map(r => `<td class="num">${allowed(r, a) ? '<span class="ok-mark">✓</span>' : "–"}</td>`).join("")}</tr>`).join("")
+  }<tr><td>Approve a payment you captured yourself (maker-checker)</td><td class="num">–</td><td class="num">–</td><td class="num">–</td></tr></tbody>`;
+  if (ME.mode === "shared") {
+    const ids = Object.keys(TEAM.members);
+    let names = {}; try { if (USER && ids.length) names = await USER.profiles(ids); } catch (e) {}
+    panel.innerHTML = `<h2>People on this team</h2><p class="note">Everyone who has opened the app with a Claude account. The app’s owner and editors are managers; managers set everyone else’s role.</p>
+      <div class="table-wrap" style="margin-top:10px"><table><thead><tr><th>Person</th><th>Role</th></tr></thead><tbody>${ids.map(id => {
+        const nm = (names[id] && names[id].name) || (id === ME.id ? ME.name : "Someone");
+        const role = id === ME.id ? ME.role : (TEAM.roles[id] || "ops");
+        const cell = can("team") && id !== ME.id ? `<select data-role-for="${esc(id)}">${["ops", "analyst", "manager"].map(r => `<option value="${r}" ${r === role ? "selected" : ""}>${ROLE_NAME[r]}</option>`).join("")}</select>` : esc(ROLE_NAME[role] || role);
+        return `<tr><td>${esc(nm)}${id === ME.id ? " (you)" : ""}</td><td>${cell}</td></tr>`; }).join("") || `<tr><td class="empty">No one yet.</td></tr>`}</tbody></table></div><p class="note" id="team-note"></p>`;
+  } else {
+    panel.innerHTML = `<h2>Demo users</h2><p class="note">This offline copy uses a demo sign-in to show each role. On claude.ai, people sign in with their Claude accounts and managers assign roles.</p>
+      <div class="table-wrap" style="margin-top:10px"><table><thead><tr><th>Person</th><th>Role</th><th></th></tr></thead><tbody>${DEMO_USERS.map(u => `<tr><td>${esc(u.name)}<br><span class="note">${esc(u.note)}</span></td><td>${ROLE_NAME[u.role]}</td><td>${u.id === ME.id ? "Signed in" : `<button class="btn ghost small" type="button" data-switch="${u.id}">Sign in as</button>`}</td></tr>`).join("")}</tbody></table></div>`;
+  }
+}
+$("#team-panel").onchange = async e => {
+  const sel = e.target.closest("[data-role-for]"); if (!sel || !can("team") || !SHARED) return;
+  const roles = Object.assign({}, TEAM.roles, { [sel.dataset.roleFor]: sel.value });
+  try { await SHARED.doc("payops/team").set({ roles }); audit("SYSTEM", "ROLE_CHANGE", `${ME.name} set a team member’s role to ${ROLE_NAME[sel.value]}`); }
+  catch (err) { const n = $("#team-note"); if (n) n.textContent = "Only the app’s owner and editors can change roles."; }
+};
+$("#team-panel").onclick = e => { const b = e.target.closest("[data-switch]"); if (b) signInDemo(DEMO_USERS.find(u => u.id === b.dataset.switch)); };
+
+
+/* =====================================================================
+   M1  Payments ledger and rules engine   (owner: Tanjiba)
+   Same rules as the HW7 PayOps Java app.
+   ===================================================================== */
+const RULES = {
+  limits: { card: 10000, wallet: 2500, RTP: 100000, ACH: 250000 },
+  thresholds: { held: 70, medium: 40 },
+  points: {
+    card: "online (card not present) +30; international +25; amount > $2,000 +20; amount > $5,000 +15",
+    wallet: "new device +45; amount > $1,000 +25",
+    bank: "new beneficiary +40; amount > $25,000 +25; RTP rail +10",
+    chargeback: "dispute base +20; fraud reason code 10.x +40; amount > $1,000 +20"
+  },
+  fees: "card in-store 2.2% + $0.10, online 2.9% + $0.30, +1% international; wallet 1.5% (min $0.25); RTP $0.45; ACH $0.25; chargeback $15 dispute fee",
+  refunds: "card and wallet payments can be refunded after settlement; bank transfers cannot (RTP is irrevocable)",
+  undo: "a review decision can be reopened only if the payment has not changed since (for example it was refunded or charged back)",
+  chargebacks: "every chargeback is reviewed by an analyst, who accepts it (the cardholder is refunded) or contests it with evidence",
+  makerChecker: "the person who captured a payment cannot approve it; another analyst must decide"
+};
+const REASON_CODES = {
+  "10.4": "Fraud – card absent environment",
+  "13.1": "Merchandise/services not received",
+  "13.3": "Not as described or defective",
+  "12.6": "Duplicate processing",
+  "13.6": "Credit not processed"
+};
+/* Team playbook per reason code: the AI loads it as a tool before advising (Agent Skill-style, S2-08). */
+const PLAYBOOK = {
+  "10.4": { evidence: ["AVS and CVV match results", "3-D Secure authentication result", "device and IP address of the order", "the customer's earlier undisputed payments"],
+            contestWhen: "the payment was authenticated (3-D Secure) or AVS and CVV matched, and the customer has paid this way before",
+            acceptWhen: "there was no authentication and the card details did not match", respond: "within the card network's deadline (about 30 days; check the network rules)" },
+  "13.1": { evidence: ["proof of delivery with tracking number", "delivery address matching the billing address", "messages with the customer"],
+            contestWhen: "tracking shows delivery to the customer's address", acceptWhen: "there is no proof of delivery", respond: "within the card network's deadline (about 30 days; check the network rules)" },
+  "13.3": { evidence: ["product description at the time of sale", "return and quality records", "messages with the customer"],
+            contestWhen: "the item matched its description and no return was attempted", acceptWhen: "the item was defective or a return was refused", respond: "within the card network's deadline (about 30 days; check the network rules)" },
+  "12.6": { evidence: ["both transaction records", "proof that they are separate purchases"],
+            contestWhen: "the two payments are separate purchases", acceptWhen: "the same purchase was processed twice", respond: "within the card network's deadline (about 30 days; check the network rules)" },
+  "13.6": { evidence: ["refund policy shown at purchase", "return records", "the refund transaction, if any"],
+            contestWhen: "no return was received, or the refund was already issued", acceptWhen: "a credit was promised but not processed", respond: "within the card network's deadline (about 30 days; check the network rules)" }
+};
+const PREFIX = { card: "CRD", wallet: "WAL", bank: "BNK", chargeback: "CBK" };
+const TYPE_NAME = { card: "Card", wallet: "Mobile wallet", bank: "Bank transfer", chargeback: "Chargeback" };
+
+function luhn(d) {
+  let sum = 0, dbl = false;
+  for (let i = d.length - 1; i >= 0; i--) { let x = +d[i]; if (dbl) { x *= 2; if (x > 9) x -= 9; } sum += x; dbl = !dbl; }
+  return sum % 10 === 0;
+}
+function abaValid(r) {
+  if (!/^\d{9}$/.test(r)) return false;
+  const d = r.split("").map(Number);
+  return (3 * (d[0] + d[3] + d[6]) + 7 * (d[1] + d[4] + d[7]) + (d[2] + d[5] + d[8])) % 10 === 0;
+}
+function expiryValid(mmyy) {
+  const m = /^(0[1-9]|1[0-2])\/(\d{2})$/.exec(mmyy || ""); if (!m) return false;
+  const mm = +m[1], yy = 2000 + +m[2], now = new Date();
+  return yy > now.getFullYear() || (yy === now.getFullYear() && mm >= now.getMonth() + 1);
+}
+function networkOf(d) {
+  if (d.startsWith("4")) return "Visa"; if (/^(5[1-5]|2[2-7])/.test(d)) return "Mastercard";
+  if (/^3[47]/.test(d)) return "Amex"; if (d.startsWith("6")) return "Discover"; return "Card";
+}
+const maskPan = d => d.length < 8 ? "****" : d.slice(0, 4) + " **** **** " + d.slice(-4);
+
+/* Builds a payment from form input; throws {rule, message} on the first failed rule. */
+function buildPayment(type, f) {
+  const fail = (rule, message) => { throw { rule, message }; };
+  const amount = round2(Number(f.amount));
+  const party = String(f.party || "").trim();
+  if (!party) fail("REQUIRED", type === "bank" ? "Payer name is required." : "Customer name is required.");
+  if (!(amount > 0)) fail("AMOUNT", "Amount must be greater than 0.");
+  const p = { id: "", type, party, amount, createdAt: f.createdAt || nowStr(), status: "NEW", details: {}, rejectReason: "", chargedBack: 0 };
+  if (type === "card") {
+    const d = String(f.cardNumber || "").replace(/[\s-]/g, "");
+    if (amount > RULES.limits.card) fail("LIMIT", "Card limit is $10,000.00 per transaction.");
+    if (!/^\d{13,19}$/.test(d) || !luhn(d)) fail("LUHN_CHECK", "Card number fails the Luhn check digit (typo?).");
+    if (!expiryValid(f.expiry)) fail("EXPIRY", "Expiry must be MM/YY and not in the past.");
+    if (!/^\d{3,4}$/.test(String(f.cvv || "").trim())) fail("CVV", "CVV must be 3 or 4 digits.");
+    p.details = { network: networkOf(d), maskedPan: maskPan(d), online: !!f.online, international: !!f.international, expiry: f.expiry };
+    // the full card number and CVV are not kept (PCI DSS)
+  } else if (type === "wallet") {
+    if (amount > RULES.limits.wallet) fail("LIMIT", "Wallet limit is $2,500.00 per payment.");
+    const w = String(f.walletId || "").trim();
+    if (!/^[^@\s]+@[^@\s]+\.[A-Za-z]{2,}$/.test(w) && !/^\d{10}$/.test(w.replace(/[\s()-]/g, ""))) fail("WALLET_ID", "Wallet ID must be an email or a 10-digit phone number.");
+    p.details = { provider: f.provider || "Apple Pay", walletId: w.includes("@") ? w.replace(/^(.).*(@.*)$/, "$1***$2") : "******" + w.slice(-4), newDevice: !!f.newDevice };
+  } else if (type === "bank") {
+    const rail = f.rail === "ACH" ? "ACH" : "RTP";
+    const ben = String(f.beneficiary || "").trim();
+    if (!ben) fail("REQUIRED", "Beneficiary name is required.");
+    if (amount > RULES.limits[rail]) fail("LIMIT", `${rail} limit is ${money(RULES.limits[rail])}.`);
+    if (!abaValid(String(f.routing || ""))) fail("ABA_CHECK", "Routing number fails the ABA check digit.");
+    if (!/^\d{4,17}$/.test(String(f.account || ""))) fail("ACCOUNT", "Account number must be 4 to 17 digits.");
+    p.details = { rail, beneficiary: ben, routing: f.routing, account: "****" + String(f.account).slice(-4), newBeneficiary: !!f.newBeneficiary };
+  } else if (type === "chargeback") {
+    const orig = S.payments.find(x => x.id === f.originalId);
+    if (!orig || orig.type !== "card") fail("REFERENCE", "Choose the disputed card payment.");
+    if (orig.status !== "SETTLED") fail("REFERENCE", `Only settled card payments can be disputed (${orig.id} is ${orig.status}).`);
+    if (amount > refundable(orig) + 0.0001) fail("LIMIT", `Chargeback cannot exceed the remaining ${money(refundable(orig))} of ${orig.id}.`);
+    if (!REASON_CODES[f.reasonCode]) fail("REQUIRED", "Reason code is required.");
+    p.details = { originalId: orig.id, reasonCode: f.reasonCode, reviewId: f.reviewId || "" };
+  }
+  return p;
+}
+function feeOf(p) {
+  if (p.type === "card") { let rate = p.details.online ? 0.029 : 0.022; if (p.details.international) rate += 0.01; return round2(p.amount * rate + (p.details.online ? 0.30 : 0.10)); }
+  if (p.type === "wallet") return round2(Math.max(0.25, p.amount * 0.015));
+  if (p.type === "bank") return p.details.rail === "RTP" ? 0.45 : 0.25;
+  return 15;
+}
+function riskOf(p) {
+  let s = 0; const r = []; const add = (n, why) => { s += n; r.push(`${why} (+${n})`); };
+  if (p.type === "card") { if (p.details.online) add(30, "card not present"); if (p.details.international) add(25, "international"); if (p.amount > 2000) add(20, "amount > $2,000"); if (p.amount > 5000) add(15, "amount > $5,000"); }
+  if (p.type === "wallet") { if (p.details.newDevice) add(45, "new device"); if (p.amount > 1000) add(25, "amount > $1,000"); }
+  if (p.type === "bank") { if (p.details.newBeneficiary) add(40, "new beneficiary"); if (p.amount > 25000) add(25, "amount > $25,000"); if (p.details.rail === "RTP") add(10, "irrevocable real-time rail"); }
+  if (p.type === "chargeback") { add(20, "dispute base"); if (p.details.reasonCode.startsWith("10.")) add(40, "fraud reason code"); if (p.amount > 1000) add(20, "amount > $1,000"); }
+  return { score: Math.min(s, 100), reasons: r.length ? r : ["no risk rules triggered"] };
+}
+function refundable(p) { return round2(p.amount - (p.chargedBack || 0) - (p.refunded || 0)); }
+function netOf(p) {
+  if (p.type === "chargeback") return p.status === "SETTLED" ? -round2(p.amount + p.fee) : 0;
+  return ["SETTLED", "CHARGED_BACK", "REFUNDED"].includes(p.status) ? round2(p.amount - p.fee - (p.refunded || 0)) : 0;
+}
+function settle(p) {
+  p.status = "SETTLED";
+  if (p.type === "chargeback") { const o = S.payments.find(x => x.id === p.details.originalId); if (o) { o.chargedBack = round2((o.chargedBack || 0) + p.amount); o.status = "CHARGED_BACK"; } }
+}
+/* Refund part or all of a settled card or wallet payment (HW7 rules, S2-02). */
+function refund(id, amount, reason) {
+  const fail = (rule, message) => { throw { rule, message }; };
+  const p = S.payments.find(x => x.id === id);
+  if (!p) fail("REFERENCE", "Choose a payment to refund.");
+  if (p.type === "bank") fail("NOT_REFUNDABLE", "Bank transfers cannot be refunded (RTP is irrevocable).");
+  if (p.type === "chargeback") fail("NOT_REFUNDABLE", "A chargeback cannot be refunded.");
+  if (p.status !== "SETTLED") fail("STATUS", `Only settled payments can be refunded (${p.id} is ${p.status.replace("_", " ").toLowerCase()}).`);
+  const a = round2(Number(amount));
+  if (!(a > 0)) fail("AMOUNT", "Refund amount must be greater than 0.");
+  if (a > refundable(p) + 0.0001) fail("LIMIT", `Refund cannot exceed the remaining ${money(refundable(p))}.`);
+  p.refunded = round2((p.refunded || 0) + a);
+  (p.refunds = p.refunds || []).push({ amount: a, reason: reason || "", time: nowStr(), by: ME.name || "" });
+  if (refundable(p) <= 0) p.status = "REFUNDED";
+  audit("PAYMENT", "REFUND", `${p.id}: ${money(a)} refunded${reason ? " – " + reason : ""}; ${money(refundable(p))} left`);
+  save();
+  return p;
+}
+/* Submit any payment type: validate, score, then settle or hold. Returns a decision text. */
+function submit(type, form) {
+  const p = buildPayment(type, form);
+  p.id = PREFIX[type] + "-" + String(++S.seq[PREFIX[type]]).padStart(4, "0");
+  p.fee = feeOf(p);
+  p.createdBy = SYSTEM_ACTOR ? "system" : (ME.id || ""); p.createdByName = SYSTEM_ACTOR ? "Sample day" : (ME.name || "");
+  const r = riskOf(p); p.risk = r.score; p.reasons = r.reasons;
+  S.payments.push(p);
+  let out;
+  if (p.risk >= RULES.thresholds.held || p.type === "chargeback") {   // every chargeback is reviewed (S2-11)
+    p.status = "PENDING_REVIEW"; p.qkey = ++S.qseq; out = p.type === "chargeback" ? "HELD FOR REVIEW (accept or contest)" : "HELD FOR REVIEW";
+  }
+  else { settle(p); out = p.risk >= RULES.thresholds.medium ? "SETTLED (medium risk, flagged)" : "SETTLED"; }
+  audit("PAYMENT", "SUBMIT", `${p.id} ${TYPE_NAME[type]} ${money(p.amount)} risk ${p.risk} → ${out}`);
+  return { p, out };
+}
+/* Fixed seed = the same sample day every time, so tests are repeatable. */
+function loadSampleDay(seed = 517) {
+  SYSTEM_ACTOR = true;
+  try { return loadSampleDayInner(seed); } finally { SYSTEM_ACTOR = false; }
+}
+function loadSampleDayInner(seed) {
+  let t = seed >>> 0;
+  const rnd = () => { t += 0x6D2B79F5; let r = Math.imul(t ^ t >>> 15, 1 | t); r ^= r + Math.imul(r ^ r >>> 7, 61 | r); return ((r ^ r >>> 14) >>> 0) / 4294967296; };
+  const pick = a => a[Math.floor(rnd() * a.length)];
+  const people = ["Ava Thompson","Liam Patel","Sofia Garcia","Noah Kim","Mia Johnson","Ethan Rossi","Zara Ahmed","Lucas Brown","Chloe Nguyen","Omar Haddad","Grace Lee","Daniel Okafor"];
+  const firms = ["Lakeview Dental LLC","Northside Builders","Prairie Foods Co.","Loop Tech Supplies","Midway Logistics","Riverwalk Cafe"];
+  const cards = ["4111111111111111","5555555555554444","4012888888881881","378282246310005","6011111111111117","5105105105105100"];
+  const routings = ["071000013","021000021","011000015","121000248"];
+  const base = new Date(); base.setHours(8, 0, 0, 0);
+  let n = 0;
+  for (let i = 0; i < 30; i++) {
+    const at = nowStr(new Date(base.getTime() + i * 17 * 60000));
+    const r = rnd();
+    try {
+      if (r < 0.5) submit("card", { party: pick(people), amount: round2(20 + rnd() * rnd() * 7500), cardNumber: pick(cards), expiry: "12/29", cvv: "123", online: rnd() < 0.55, international: rnd() < 0.3, createdAt: at });
+      else if (r < 0.78) submit("wallet", { party: pick(people), amount: round2(10 + rnd() * rnd() * 1900), provider: pick(["Apple Pay","Google Pay","PayPal","Venmo","Samsung Pay"]), walletId: "3125550" + String(100 + i), newDevice: rnd() < 0.3, createdAt: at });
+      else submit("bank", { party: pick(firms), beneficiary: pick(firms), amount: round2(500 + rnd() * rnd() * 55000), rail: rnd() < 0.45 ? "RTP" : "ACH", routing: pick(routings), account: String(10000000 + Math.floor(rnd() * 8999999)), newBeneficiary: rnd() < 0.35, createdAt: at });
+      n++;
+    } catch (e) { /* sample data is valid by construction */ }
+  }
+  // Scenario payments that match the HW8 test cases, so the queue always has work to review
+  const late = i => nowStr(new Date(base.getTime() + (30 + i) * 17 * 60000));
+  const scenarios = [
+    ["card", { party: "Omar Haddad", amount: 3000, cardNumber: "4012888888881881", expiry: "12/29", cvv: "123", online: true, international: true, createdAt: late(0) }],
+    ["wallet", { party: "Zara Ahmed", amount: 1200, provider: "Venmo", walletId: "zara@example.com", newDevice: true, createdAt: late(1) }],
+    ["bank", { party: "Midway Logistics", beneficiary: "Northside Builders", amount: 30000, rail: "RTP", routing: "071000013", account: "55501234", newBeneficiary: true, createdAt: late(2) }],
+    ["card", { party: "Liam Patel", amount: 6200, cardNumber: "5555555555554444", expiry: "12/29", cvv: "123", online: true, international: false, createdAt: late(3) }],
+    ["wallet", { party: "Grace Lee", amount: 800, provider: "Google Pay", walletId: "3125550199", newDevice: true, createdAt: late(4) }]
+  ];
+  for (const [type, f] of scenarios) { submit(type, f); n++; }
+  audit("SYSTEM", "LOAD_SAMPLE_DAY", `seed ${seed}: ${n} payments`);
+  return n;
+}
+
+/* =====================================================================
+   Shared: AI gateway (claude.ai artifact runtime, capability "sample")
+   ===================================================================== */
+let AI = null, AI_TOOLS = false;
+const AI_OFF_MSG = () => window.claude
+  ? "AI is still connecting or was not allowed. Wait a few seconds or refresh; if claude.ai asks to allow Claude, choose Allow."
+  : "AI runs only when you open this app from its claude.ai link. This is a downloaded copy, so AI features are off here.";
+function aiError(e) {
+  const c = e && e.code;
+  if (c === "not_granted" || c === "sampling_disabled" || c === "capability_disabled") { return "AI is turned off for this view. The rest of the app still works."; }
+  if (c === "rate_limited") return "AI is busy or your usage limit was reached. Try again in a minute.";
+  if (c === "invalid_json") return "The AI reply could not be read as data. Try again.";
+  if (c === "cancelled") return "Stopped.";
+  return "The AI request failed. Try again.";
+}
+const slim = p => p && ({ id: p.id, type: TYPE_NAME[p.type], party: p.party, amount: p.amount, createdAt: p.createdAt, status: p.status, fee: p.fee, net: netOf(p), riskScore: p.risk, riskReasons: p.reasons, details: p.details, rejectReason: p.rejectReason || undefined });
+function partyHistory(party) {
+  const xs = S.payments.filter(x => x.party.toLowerCase() === String(party).toLowerCase());
+  return { party, count: xs.length, total: round2(xs.reduce((a, x) => a + x.amount, 0)),
+    byStatus: xs.reduce((a, x) => (a[x.status] = (a[x.status] || 0) + 1, a), {}),
+    chargebacks: xs.filter(x => x.status === "CHARGED_BACK").map(x => x.id),
+    payments: xs.slice(-10).map(x => ({ id: x.id, type: TYPE_NAME[x.type], amount: x.amount, status: x.status, risk: x.risk })) };
+}
+/* Tools the AI may call. They only READ data; people change data. */
+const TOOLS = {
+  get_transaction: { description: "Returns one payment by id (e.g. CRD-0004): masked details, fee, net, rule-based risk score and reasons, status.",
+    inputSchema: { type: "object", properties: { id: { type: "string" } }, required: ["id"] },
+    execute: ({ id }) => { const p = S.payments.find(x => x.id === String(id).toUpperCase().trim()); if (!p) throw new Error("No payment with id " + id); return slim(p); } },
+  get_party_history: { description: "Returns a customer's or payer's payment history: count, total, statuses, chargebacks and their last 10 payments.",
+    inputSchema: { type: "object", properties: { party: { type: "string" } }, required: ["party"] },
+    execute: ({ party }) => partyHistory(String(party)) },
+  get_risk_rules: { description: "Returns PayOps limits, risk thresholds (held at 70+, medium 40-69), the risk point rules per payment type, fee rules, refund and undo rules.",
+    execute: () => RULES },
+  get_review_queue: { description: "Returns payments held for manual review, oldest first.",
+    execute: () => queue().map(slim) },
+  get_dispute_playbook: { description: "Returns the team's playbook for a card dispute reason code (10.4, 13.1, 13.3, 12.6, 13.6): evidence to collect, when to contest, when to accept, and the response time.",
+    inputSchema: { type: "object", properties: { reasonCode: { type: "string" } }, required: ["reasonCode"] },
+    execute: ({ reasonCode }) => { const k = String(reasonCode || "").trim(); if (!PLAYBOOK[k]) throw new Error("Unknown reason code " + reasonCode); return Object.assign({ reasonCode: k, name: REASON_CODES[k] }, PLAYBOOK[k]); } },
+  find_drive_evidence: { description: "Searches the team's Google Drive (through the Google Drive MCP connector) for evidence files named 'PAYOPS evidence <payment id>' and returns their titles, short excerpts and dates. Read-only.",
+    inputSchema: { type: "object", properties: { paymentId: { type: "string" } }, required: ["paymentId"] },
+    execute: async ({ paymentId }) => {
+      if (!MCP) throw new Error("Google Drive is not connected in this view");
+      const files = await findDriveEvidence(String(paymentId || "").toUpperCase().trim());
+      return files.map(f => ({ title: f.title, excerpt: f.snippet, modified: f.modified }));
+    } },
+  get_totals: { description: "Returns today's settlement totals by payment type: count, settled, held, rejected, gross settled, fees, net, average risk.",
+    execute: () => totals() },
+  quote_payment: { description: "Calculates the exact fee and risk score with the rules engine for a hypothetical payment. type is card, wallet, bank or chargeback.",
+    inputSchema: { type: "object", properties: { type: { type: "string" }, amount: { type: "number" }, online: { type: "boolean" }, international: { type: "boolean" }, newDevice: { type: "boolean" }, rail: { type: "string" }, newBeneficiary: { type: "boolean" }, reasonCode: { type: "string" } }, required: ["type", "amount"] },
+    execute: (a) => { const type = String(a.type).toLowerCase(); const p = { type, amount: Number(a.amount), details: { online: !!a.online, international: !!a.international, newDevice: !!a.newDevice, rail: a.rail === "ACH" ? "ACH" : "RTP", newBeneficiary: !!a.newBeneficiary, reasonCode: String(a.reasonCode || "13.1") } };
+      if (!PREFIX[type]) throw new Error("type must be card, wallet, bank or chargeback");
+      const lim = type === "bank" ? RULES.limits[p.details.rail] : RULES.limits[type]; const r = riskOf(p);
+      return { fee: feeOf(p), riskScore: r.score, riskReasons: r.reasons, decision: r.score >= 70 ? "HELD for review" : r.score >= 40 ? "SETTLED, medium flag" : "SETTLED", withinLimit: lim ? p.amount <= lim : true, limit: lim || null }; } }
+};
+const toolList = names => names.map(n => ({ name: n, description: TOOLS[n].description, inputSchema: TOOLS[n].inputSchema, execute: (input) => { const out = TOOLS[n].execute(input || {}); audit("AI", "TOOL_CALL", `${n} ${JSON.stringify(input || {})}`); return out; } }));
+
+/* =====================================================================
+   M2  AI fraud review copilot   (owner: Tanjiba)
+   ===================================================================== */
+const queue = () => S.payments.filter(p => p.status === "PENDING_REVIEW").sort((a, b) => a.qkey - b.qkey);
+let advice = {}; // paymentId -> recommendation (also saved in S.aiAdvice so the team sees it)
+const getAdvice = id => advice[id] || (S.aiAdvice || {})[id];
+const adviceLabel = (p, r) => (p && p.type === "chargeback") ? (r.decision === "approve" ? "accept" : "contest") : r.decision;
+async function askAI(id, statusEl) {
+  const p = S.payments.find(x => x.id === id);
+  const format = 'Reply with only JSON: {"decision":"approve"|"reject","confidence":0.0-1.0,"reasons":["short reason", "..."],"checksUsed":["tool or data you used"],"suggestedRejectReason":"short text, or empty if approving"}';
+  const intro = `You are the fraud-review copilot in PayOps, a payments operations app. Payment ${id} is held for manual review because its rule-based risk score is 70 or more. Recommend approve or reject for the analyst; the analyst makes the final decision. Base every reason on the data, not on assumptions. Never ask for card numbers.`;
+  let prompt, opts = {};
+  const isCb = p.type === "chargeback";
+  const theIntro = !isCb ? intro : `You are the disputes copilot in PayOps, a payments operations app. Chargeback ${id} (reason code ${p.details.reasonCode}) against payment ${p.details.originalId} is waiting for an analyst. Recommend "approve" to ACCEPT the chargeback (the cardholder is refunded) or "reject" to CONTEST it with evidence. Call get_dispute_playbook for the reason code, get_transaction for ${id} and for ${p.details.originalId}, and get_party_history${MCP ? `, and find_drive_evidence for ${p.details.originalId} (evidence files in the team's Google Drive)` : ""}. The analyst makes the final decision. Base every reason on the data.`;
+  if (AI_TOOLS) {
+    prompt = `${theIntro}\nInvestigate with your tools: get_transaction for ${id}, get_party_history for its party, and get_risk_rules if useful.\n${format}`;
+    opts.tools = toolList(["get_transaction", "get_party_history", "get_risk_rules"].concat(isCb ? ["get_dispute_playbook"].concat(MCP ? ["find_drive_evidence"] : []) : []));
+  } else {
+    prompt = `${theIntro}\nPayment: ${JSON.stringify(slim(p))}\nCustomer history: ${JSON.stringify(partyHistory(p.party))}\nRules: ${JSON.stringify(RULES)}\n${format}`;
+    opts.cache = false;
+  }
+  statusEl.textContent = "Copilot is checking the payment and the customer’s history…";
+  const rec = await AI.json(prompt, opts);
+  if (!rec || !["approve", "reject"].includes(rec.decision)) throw { code: "invalid_json" };
+  rec.confidence = Math.max(0, Math.min(1, Number(rec.confidence) || 0));
+  rec.reasons = Array.isArray(rec.reasons) ? rec.reasons.map(String).slice(0, 6) : [];
+  rec.by = ME.name || ""; rec.time = nowStr();
+  advice[id] = rec; S.aiAdvice = S.aiAdvice || {}; S.aiAdvice[id] = rec; save();
+  audit("AI", "FRAUD_RECOMMENDATION", `${id}: ${rec.decision} (${Math.round(rec.confidence * 100)}%) – ${rec.reasons.join("; ")}`);
+  return rec;
+}
+function decide(id, action, reason) {
+  const p = S.payments.find(x => x.id === id);
+  if (!p || p.status !== "PENDING_REVIEW") return;
+  if (action === "APPROVED") settle(p);
+  else { p.status = action === "CONTESTED" ? "CONTESTED" : "REJECTED"; p.rejectReason = reason || (action === "CONTESTED" ? "Contested by analyst" : "Rejected by analyst"); }
+  const rec = getAdvice(id);
+  S.decisions.push({ id: "D" + String(S.decisions.length + 1).padStart(4, "0"), paymentId: id, action, reason: action !== "APPROVED" ? p.rejectReason : "", time: nowStr(), statusAfter: p.status,
+    refundedAt: p.refunded || 0, by: ME.name || "", byId: ME.id || "", aiRecommendation: rec ? adviceLabel(p, rec) : null, reopenedAt: null, reopenNote: "" });
+  audit("REVIEW", action, `${id}${rec ? ` (AI advised ${adviceLabel(p, rec)})` : " (no AI advice)"}${action !== "APPROVED" ? ": " + p.rejectReason : ""}`);
+  save();
+}
+/* Reopen ANY past decision (not only the last one) when it is still safe.
+   Returns "" when allowed, otherwise the reason it is blocked. */
+function reopenCheck(d) {
+  if (!d) return "decision not found";
+  if (d.reopenedAt) return "already reopened";
+  const later = S.decisions.find(x => x.paymentId === d.paymentId && x.id > d.id);
+  if (later) return `a newer decision (${later.id}) exists for this payment`;
+  const p = S.payments.find(x => x.id === d.paymentId);
+  if (!p) return "payment not found";
+  if ((p.refunded || 0) !== (d.refundedAt || 0)) return "the payment was refunded after this decision";
+  if (p.status !== d.statusAfter) return `payment is now ${p.status.replace("_", " ").toLowerCase()}, so it changed after this decision`;
+  if (p.type === "chargeback" && p.status === "SETTLED") return "money already went back to the cardholder";
+  return "";
+}
+function reopen(decisionId, note) {
+  const d = S.decisions.find(x => x.id === decisionId);
+  const why = reopenCheck(d);
+  if (why) return { ok: false, msg: "Cannot reopen: " + why + "." };
+  const p = S.payments.find(x => x.id === d.paymentId);
+  p.status = "PENDING_REVIEW"; p.rejectReason = ""; p.qkey = Math.min(0, ...queue().map(x => x.qkey)) - 1;
+  d.reopenedAt = nowStr(); d.reopenNote = note || ""; d.reopenedBy = ME.name || "";
+  audit("REVIEW", "REOPEN", `${p.id}: ${d.action.toLowerCase()} decision ${d.id} from ${d.time} reopened${note ? " – " + note : ""}; back to the front of the queue`);
+  save();
+  return { ok: true, msg: `${p.id} reopened and moved to the front of the queue.` };
+}
+/* Undo = reopen the most recent decision that is still active. */
+function undo() {
+  const d = [...S.decisions].reverse().find(x => !x.reopenedAt);
+  if (!d) return "Nothing to undo.";
+  return reopen(d.id, "undo last decision").msg;
+}
+
+/* AI triage agent: works through the whole queue on its own and leaves a recommendation
+   on every held payment. It never decides; an analyst decides each one. */
+let triageStop = false;
+async function runTriage(progress) {
+  triageStop = false;
+  const items = queue().filter(p => !getAdvice(p.id));
+  let done = 0, failed = 0;
+  for (const p of items) {
+    if (triageStop) break;
+    progress(`Agent is investigating ${p.id} (${done + failed + 1} of ${items.length})…`);
+    try { await askAI(p.id, { textContent: "" }); done++; }
+    catch (e) { failed++; if (e && (e.code === "rate_limited" || e.code === "not_granted")) { progress(aiError(e)); break; } }
+    renderReview();
+  }
+  audit("AI", "TRIAGE_AGENT", `${done} of ${items.length} held payments triaged${triageStop ? " (stopped)" : ""}`);
+  return { done, failed, total: items.length, stopped: triageStop };
+}
+
+/* =====================================================================
+   M3  Settlement dashboard and AI day summary   (owner: Tanjiba)
+   ===================================================================== */
+const TYPES = ["card", "wallet", "bank", "chargeback"];
+function totals() {
+  const rows = TYPES.map(t => {
+    const xs = S.payments.filter(p => p.type === t);
+    const settledLike = xs.filter(p => ["SETTLED", "CHARGED_BACK", "REFUNDED"].includes(p.status));
+    return { type: TYPE_NAME[t], count: xs.length, settled: settledLike.length,
+      held: xs.filter(p => p.status === "PENDING_REVIEW").length, rejected: xs.filter(p => p.status === "REJECTED").length, contested: xs.filter(p => p.status === "CONTESTED").length, refunds: round2(xs.reduce((a, p) => a + (p.refunded || 0), 0)),
+      grossSettled: round2(settledLike.reduce((a, p) => a + p.amount, 0)), fees: round2(settledLike.reduce((a, p) => a + p.fee, 0)),
+      net: round2(xs.reduce((a, p) => a + netOf(p), 0)), avgRisk: xs.length ? Math.round(xs.reduce((a, p) => a + p.risk, 0) / xs.length) : 0 };
+  });
+  const sum = k => round2(rows.reduce((a, r) => a + r[k], 0));
+  rows.push({ type: "Total", count: sum("count"), settled: sum("settled"), held: sum("held"), rejected: sum("rejected"), contested: sum("contested"), refunds: sum("refunds"), grossSettled: sum("grossSettled"), fees: sum("fees"), net: sum("net"),
+    avgRisk: S.payments.length ? Math.round(S.payments.reduce((a, p) => a + p.risk, 0) / S.payments.length) : 0 });
+  return rows;
+}
+async function aiDaySummary() {
+  const t = totals();
+  const held = queue().map(p => ({ id: p.id, type: TYPE_NAME[p.type], amount: p.amount, risk: p.risk, reasons: p.reasons }));
+  const prompt = `You are writing the end-of-day brief for a payments operations manager using PayOps. Use only these figures; do not calculate new totals.\nTotals by type: ${JSON.stringify(t)}\nStill held for review: ${JSON.stringify(held)}\nRejected today: ${S.payments.filter(p => p.status === "REJECTED").length}\nWrite exactly 5 short bullet lines, each starting with "- ": net settlement and fees, volume by type, what is still held and why, the main risk to watch, one recommended action for tomorrow. Plain text, no headings.`;
+  const { text } = await AI(prompt, { modelTier: "quick", cache: false });
+  audit("AI", "DAY_SUMMARY", text.slice(0, 300));
+  return text;
+}
+function csv(rows) { return rows.map(r => r.map(v => { const s = String(v ?? ""); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; }).join(",")).join("\n"); }
+
+/* =====================================================================
+   M4  AI chargeback dispute assistant   (owner: Tanjiba)
+   ===================================================================== */
+let draftCase = null;
+async function classify(paymentId, complaint) {
+  const p = S.payments.find(x => x.id === paymentId);
+  const codes = Object.entries(REASON_CODES).map(([k, v]) => `${k}: ${v}`).join("\n");
+  const prompt = `Classify a card dispute for PayOps. Choose exactly one reason code from this list:\n${codes}\nDisputed payment: ${JSON.stringify(slim(p))}\nCustomer complaint: """${complaint.slice(0, 2000)}"""\nReply with only JSON: {"reasonCode":"13.1","rationale":"one sentence","evidenceNeeded":["item","item"]}`;
+  const r = await AI.json(prompt, { modelTier: "quick", cache: false });
+  if (!r || !REASON_CODES[r.reasonCode]) throw { code: "invalid_json" };
+  audit("AI", "DISPUTE_CLASSIFY", `${paymentId}: ${r.reasonCode} – ${r.rationale}`);
+  return r;
+}
+async function draftResponse(c, onText) {
+  const p = S.payments.find(x => x.id === c.paymentId);
+  const prompt = `Draft a short dispute response (under 160 words) from the merchant's payments team for a ${REASON_CODES[c.reasonCode]} (reason code ${c.reasonCode}) dispute.\nPayment record: ${JSON.stringify(slim(p))}\nCustomer complaint: """${c.complaint.slice(0, 2000)}"""\nState the facts from the payment record, list the evidence the team will attach (${(c.evidenceNeeded || []).join(", ") || "order and delivery records"}), and say whether the team recommends accepting or contesting the dispute and why. Use the masked card number only. Plain text.`;
+  const pb = PLAYBOOK[c.reasonCode] || {};
+  const ev = (driveEvidence && driveEvidence.paymentId === c.paymentId) ? driveEvidence.files.map(f => ({ title: f.title, excerpt: f.snippet })) : [];
+  const { text } = await AI(prompt + `\nTeam playbook for this reason code (use it for the evidence list and the accept or contest recommendation): ${JSON.stringify(pb)}${ev.length ? `\nEvidence found in the team's Google Drive (use it and cite the file titles): ${JSON.stringify(ev)}` : ""}`, { cache: false, onText });
+  audit("AI", "DISPUTE_DRAFT", `${c.paymentId}: draft of ${text.length} characters`);
+  return text;
+}
+function escalate(paymentId, complaint, reasonCode, draft) {
+  const p = S.payments.find(x => x.id === paymentId);
+  const reviewId = "REV-CBK-" + nowStr().replace(/[-:]/g, "").replace(" ", "-");
+  const r = submit("chargeback", { party: p.party, amount: refundable(p), originalId: paymentId, reasonCode, reviewId });
+  S.cases.push({ paymentId, chargebackId: r.p.id, complaint, reasonCode, draft: draft || "", reviewId, time: nowStr(), outcome: r.out, by: ME.name || "", evidence: (driveEvidence && driveEvidence.paymentId === paymentId) ? driveEvidence.files.map(f => ({ title: f.title, url: f.url })) : [] });
+  audit("DISPUTE", "ESCALATE", `${reviewId}: ${paymentId} → ${r.p.id} (${reasonCode}) ${r.out}`);
+  save();
+  return { reviewId, r };
+}
+
+/* =====================================================================
+   Rendering
+   ===================================================================== */
+const FIELDS = {
+  card: [["party","Customer name","text"],["amount","Amount (USD)","number"],["cardNumber","Card number (test numbers only)","text"],["expiry","Expiry MM/YY","text"],["cvv","CVV","password"],["online","Online (card not present)","checkbox"],["international","International","checkbox"]],
+  wallet: [["party","Customer name","text"],["amount","Amount (USD)","number"],["provider","Provider","select:Apple Pay,Google Pay,PayPal,Venmo,Samsung Pay"],["walletId","Wallet ID (email or phone)","text"],["newDevice","New device","checkbox"]],
+  bank: [["party","Payer","text"],["beneficiary","Beneficiary","text"],["amount","Amount (USD)","number"],["rail","Rail","select:RTP,ACH"],["routing","Routing number","text"],["account","Account number","text"],["newBeneficiary","New beneficiary","checkbox"]]
+};
+const TEST = {
+  card: { party: "Ava Thompson", amount: 3000, cardNumber: "4111 1111 1111 1111", expiry: "12/29", cvv: "123", online: true, international: true },
+  wallet: { party: "Zara Ahmed", amount: 1200, provider: "Apple Pay", walletId: "zara@example.com", newDevice: true },
+  bank: { party: "Northside Builders", beneficiary: "Loop Tech Supplies", amount: 30000, rail: "RTP", routing: "021000021", account: "12345678", newBeneficiary: true }
+};
+function renderForm() {
+  const t = $("#ptype").value;
+  $("#pform").innerHTML = FIELDS[t].map(([k, l, kind]) => {
+    if (kind === "checkbox") return `<label class="check"><input type="checkbox" name="${k}"> ${esc(l)}</label>`;
+    if (kind.startsWith("select:")) return `<label>${esc(l)}<select name="${k}">${kind.slice(7).split(",").map(o => `<option>${esc(o)}</option>`).join("")}</select></label>`;
+    return `<label>${esc(l)}<input name="${k}" type="${kind}" ${kind === "number" ? 'step="0.01" min="0"' : ""}></label>`;
+  }).join("");
+}
+function readForm() {
+  const o = {}; for (const el of $("#pform").elements) o[el.name] = el.type === "checkbox" ? el.checked : el.value; return o;
+}
+function chip(s) { return `<span class="chip st-${s}">${s.replace("_", " ").toLowerCase().replace(/^./, c => c.toUpperCase())}</span>`; }
+function riskCell(v) { return `<span class="risk ${v >= 70 ? "hi" : v >= 40 ? "md" : ""}">${v}</span>`; }
+function describe(p) {
+  const d = p.details;
+  if (p.type === "card") return `${d.network} ${d.maskedPan} · ${d.online ? "online" : "in-store"}${d.international ? " · international" : ""}`;
+  if (p.type === "wallet") return `${d.provider} ${d.walletId}${d.newDevice ? " · new device" : ""}`;
+  if (p.type === "bank") return `${d.rail} to ${d.beneficiary} · acct ${d.account}${d.newBeneficiary ? " · new beneficiary" : ""}`;
+  return `dispute on ${d.originalId} · ${d.reasonCode}${d.reviewId ? " · " + d.reviewId : ""}`;
+}
+function renderLedger() {
+  const f = $("#ledger-filter").value;
+  const xs = S.payments.filter(p => !f || p.status === f).slice().reverse();
+  $("#ledger-count").textContent = `${xs.length} of ${S.payments.length} payments`;
+  const note = p => p.rejectReason || (p.refunded ? `Refunded ${money(p.refunded)}` : "") || (p.chargedBack ? `Charged back ${money(p.chargedBack)}` : "");
+  $("#ledger-table").innerHTML = xs.length ? `<thead><tr><th>ID</th><th>Time</th><th>Type</th><th>Party</th><th class="num">Amount</th><th class="num">Fee</th><th class="num">Risk</th><th>Status</th><th>Note</th><th>Captured by</th><th>Details</th></tr></thead><tbody>${
+    xs.map(p => `<tr><td class="id">${p.id}</td><td>${esc(p.createdAt.slice(11, 16))}</td><td>${TYPE_NAME[p.type]}</td><td>${esc(p.party)}</td><td class="num">${money(p.amount)}</td><td class="num">${money(p.fee)}</td><td class="num">${riskCell(p.risk)}</td><td>${chip(p.status)}</td><td style="white-space:normal;min-width:140px">${esc(note(p))}</td><td>${esc(p.createdByName || "")}</td><td>${esc(describe(p))}</td></tr>`).join("")}</tbody>`
+    : `<tbody><tr><td class="empty">${S.payments.length ? "No payments with this status." : "No payments yet. Submit one above or load the sample business day."}</td></tr></tbody>`;
+  const sel = $("#rf-payment"), cur = sel.value;
+  const ok = S.payments.filter(p => (p.type === "card" || p.type === "wallet") && p.status === "SETTLED" && refundable(p) > 0);
+  sel.innerHTML = ok.length ? ok.map(p => `<option value="${p.id}">${p.id} · ${esc(p.party)} · ${money(refundable(p))} left</option>`).join("") : `<option value="">No refundable payments</option>`;
+  if (ok.some(p => p.id === cur)) sel.value = cur;
+  $("#rf-go").disabled = !can("refund") || !ok.length; lockNote("#rf-lock", "refund");
+  $("#submit").disabled = !can("capture"); lockNote("#submit-lock", "capture");
+}
+function renderReview() {
+  const q = queue();
+  $("#queue-list").innerHTML = q.length ? q.map((p, i) => { const r = getAdvice(p.id);
+    return `<li><span class="id">${p.id}</span> · ${money(p.amount)} · risk ${riskCell(p.risk)}${i === 0 ? " · next" : ""}${r ? ` <span class="badge-ai">AI: ${adviceLabel(p, r)} ${Math.round(r.confidence * 100)}%</span>` : ""}</li>`; }).join("") : `<li class="note">Queue is empty.</li>`;
+  $("#decision-list").innerHTML = S.decisions.slice().reverse().slice(0, 40).map(d => {
+    const why = reopenCheck(d);
+    let action;
+    if (d.reopenedAt) action = `<span class="note">Reopened ${esc(d.reopenedAt.slice(11, 16))}${d.reopenedBy ? " by " + esc(d.reopenedBy) : ""}${d.reopenNote ? " · " + esc(d.reopenNote) : ""}</span>`;
+    else if (why) action = `<span class="note">Can’t reopen: ${esc(why)}</span>`;
+    else if (reopening === d.id) action = `<div class="reopen-form"><input id="reopen-note" placeholder="Why reopen? (optional)" aria-label="Reason for reopening"><button class="btn small" type="button" data-confirm="${d.id}">Reopen</button><button class="btn ghost small" type="button" data-cancel="1">Cancel</button></div>`;
+    else action = can("reopen") ? `<button class="btn ghost small" type="button" data-reopen="${d.id}">Reopen</button>` : `<span class="note">Analysts and managers can reopen.</span>`;
+    return `<li><span class="id">${d.paymentId}</span> ${d.action.toLowerCase()}${d.aiRecommendation ? ` · AI advised ${d.aiRecommendation}` : ""}<br><span class="note">${d.id} · ${esc(d.time.slice(11, 16))}${d.by ? " · by " + esc(d.by) : ""}${d.reason ? " · " + esc(d.reason) : ""}</span><div style="margin-top:4px">${action}</div></li>`;
+  }).join("") || `<li class="note">No decisions yet.</li>`;
+  if (reopening && $("#reopen-note")) $("#reopen-note").focus();
+  $("#undo").disabled = !S.decisions.some(x => !x.reopenedAt) || !can("reopen");
+  $("#triage-go").disabled = !AI || !can("decide") || !q.length;
+  const p = q[0];
+  if (!p) { $("#next-panel").innerHTML = `<h2>Next in line</h2><p class="empty">Nothing is waiting. Payments with a risk score of 70 or more appear here.</p>`; return; }
+  const rec = getAdvice(p.id), isCb = p.type === "chargeback";
+  const caseFor = isCb ? S.cases.find(c => c.chargebackId === p.id) : null;
+  const block = !can("decide") ? lockText("decide") : (makerCheckerBlock(p, ME.id) ? "You captured this payment, so another analyst must decide it (maker-checker)." : "");
+  $("#next-panel").innerHTML = `<h2>Next in line: <span class="id">${p.id}</span></h2>
+    <dl class="dl"><dt>Type</dt><dd>${TYPE_NAME[p.type]}</dd><dt>Party</dt><dd>${esc(p.party)}</dd><dt>Amount</dt><dd>${money(p.amount)} (fee ${money(p.fee)})</dd>
+    <dt>Details</dt><dd>${esc(describe(p))}</dd><dt>Risk</dt><dd>${riskCell(p.risk)} – ${esc(p.reasons.join("; "))}</dd><dt>Created</dt><dd>${esc(p.createdAt)}</dd></dl>
+    <div class="toolbar" style="margin-top:14px">${AI ? `<button class="btn ai" type="button" id="ask">Ask AI copilot</button>` : `<span class="note">${esc(AI_OFF_MSG())} You can still decide from the rules.</span>`}</div>
+    <div class="status-line" id="ask-status"></div>
+    <div id="rec">${rec ? recHtml(rec, p) : ""}</div>
+    <label style="margin-top:12px">${isCb ? "Contest note (evidence sent)" : "Reject reason"}<input id="reject-reason" value="${esc(isCb ? (caseFor && caseFor.draft ? caseFor.draft.slice(0, 140) : "") : (rec && rec.decision === "reject" ? rec.suggestedRejectReason || "" : ""))}" placeholder="${isCb ? "Required to contest" : "Required to reject"}"></label>
+    <div class="toolbar" style="margin-top:10px"><button class="btn" type="button" id="approve" ${block ? "disabled" : ""}>${isCb ? "Accept chargeback (refund cardholder)" : "Approve and settle"}</button><button class="btn danger" type="button" id="reject" ${block ? "disabled" : ""}>${isCb ? "Contest" : "Reject"}</button></div>
+    ${block ? `<p class="locked">${esc(block)}</p>` : ""}`;
+  $("#approve").onclick = () => { if (block) return; decide(p.id, "APPROVED"); renderAll(); };
+  $("#reject").onclick = () => { if (block) return; const r = $("#reject-reason").value.trim(); if (!r) { $("#reject-reason").focus(); $("#reject-reason").placeholder = isCb ? "Enter what you sent to contest" : "Enter a reason to reject"; return; } decide(p.id, isCb ? "CONTESTED" : "REJECTED", r); renderAll(); };
+  if ($("#ask")) $("#ask").onclick = async () => {
+    const b = $("#ask"); b.disabled = true;
+    try { const r = await askAI(p.id, $("#ask-status")); $("#ask-status").textContent = ""; renderAll(); }
+    catch (e) { $("#ask-status").textContent = aiError(e); b.disabled = false; }
+  };
+}
+function recHtml(r, p) {
+  return `<div class="ai-card"><div class="who">AI copilot recommends: ${adviceLabel(p, r)} · confidence ${Math.round(r.confidence * 100)}%${r.time ? ` · ${esc(r.time.slice(11, 16))}` : ""}</div>
+    <ul>${r.reasons.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+    ${r.checksUsed && r.checksUsed.length ? `<div class="note" style="margin-top:6px">Checked: ${esc([].concat(r.checksUsed).join(", "))}</div>` : ""}
+    <div class="note" style="margin-top:6px">Advice only. Your decision is logged with this recommendation.</div></div>`;
+}
+function renderDashboard() {
+  const t = totals(); const tot = t[t.length - 1];
+  $("#kpis").innerHTML = [[money(tot.net), "Net settlement"], [money(tot.fees), "Fees"], [String(tot.held), "Held for review"], [money(tot.refunds), "Refunds"], [String(tot.contested), "Chargebacks contested"], [String(tot.avgRisk), "Average risk score"]]
+    .map(([v, l]) => `<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
+  $("#totals-table").innerHTML = `<thead><tr><th>Type</th><th class="num">Count</th><th class="num">Settled</th><th class="num">Held</th><th class="num">Rejected</th><th class="num">Contested</th><th class="num">Refunds</th><th class="num">Gross settled</th><th class="num">Fees</th><th class="num">Net</th><th class="num">Avg risk</th></tr></thead><tbody>${
+    t.map(r => `<tr${r.type === "Total" ? ' style="font-weight:600"' : ""}><td>${r.type}</td><td class="num">${r.count}</td><td class="num">${r.settled}</td><td class="num">${r.held}</td><td class="num">${r.rejected}</td><td class="num">${r.contested}</td><td class="num">${money(r.refunds)}</td><td class="num">${money(r.grossSettled)}</td><td class="num">${money(r.fees)}</td><td class="num">${money(r.net)}</td><td class="num">${r.avgRisk}</td></tr>`).join("")}</tbody>`;
+  const bars = t.slice(0, 4), max = Math.max(1, ...bars.map(b => b.grossSettled));
+  $("#chart").innerHTML = `<svg viewBox="0 0 460 ${bars.length * 44 + 10}" width="100%" role="img" aria-label="Gross settled by payment type">${bars.map((b, i) => {
+    const w = Math.round(b.grossSettled / max * 260), y = i * 44 + 6;
+    return `<text x="0" y="${y + 20}" font-size="13" fill="var(--text)">${b.type}</text><rect x="110" y="${y + 6}" width="${Math.max(w, 2)}" height="20" rx="4" fill="${b.type === "Chargeback" ? "var(--ai)" : "var(--ink-2)"}"/><text x="${116 + w}" y="${y + 21}" font-size="12.5" fill="var(--muted)">${money(b.grossSettled)}</text>`;
+  }).join("")}</svg>`;
+  const hours = {}; S.payments.forEach(p => { const h = Number(p.createdAt.slice(11, 13)); hours[h] = (hours[h] || 0) + 1; });
+  const hs = Object.keys(hours).map(Number).sort((a, b) => a - b), hmax = Math.max(1, ...Object.values(hours)), slot = hs.length ? 430 / hs.length : 0;
+  $("#trend").innerHTML = hs.length ? `<svg viewBox="0 0 460 165" width="100%" role="img" aria-label="Payments by hour">${hs.map((h, i) => {
+    const bw = Math.min(30, slot - 6), x = 15 + i * slot, bh = Math.round(hours[h] / hmax * 105);
+    return `<rect x="${x}" y="${128 - bh}" width="${bw}" height="${bh}" rx="3" fill="var(--ink-2)"/><text x="${x + bw / 2}" y="${122 - bh}" font-size="11" text-anchor="middle" fill="var(--muted)">${hours[h]}</text><text x="${x + bw / 2}" y="146" font-size="10.5" text-anchor="middle" fill="var(--text)">${pad2(h)}:00</text>`;
+  }).join("")}</svg>` : `<p class="note">No payments yet.</p>`;
+  $("#summary").hidden = !AI;
+  $("#drive-save").hidden = !MCP;
+  if (!AI && !$("#summary-out").textContent) $("#summary-out").innerHTML = `<p class="note">${esc(AI_OFF_MSG())}</p>`;
+  else if (AI && $("#summary-out").textContent === AI_OFF_MSG()) $("#summary-out").innerHTML = "";
+}
+function renderDisputes() {
+  const sel = $("#d-payment"), cur = sel.value;
+  const cards = S.payments.filter(p => p.type === "card" && p.status === "SETTLED");
+  sel.innerHTML = cards.length ? cards.map(p => `<option value="${p.id}">${p.id} · ${esc(p.party)} · ${money(p.amount)}</option>`).join("") : `<option value="">No settled card payments yet</option>`;
+  if (cards.some(p => p.id === cur)) sel.value = cur;
+  const code = $("#d-code"), cc = code.value;
+  code.innerHTML = Object.entries(REASON_CODES).map(([k, v]) => `<option value="${k}">${k} ${esc(v)}</option>`).join("");
+  if (cc) code.value = cc;
+  $("#d-classify").hidden = $("#d-draft").hidden = !AI;
+  $("#d-escalate").disabled = !can("escalate");
+  $("#d-drive").hidden = !MCP;
+  $("#case-list").innerHTML = S.cases.slice().reverse().map(c => `<li><b>${esc(c.reviewId)}</b><br><span class="id">${c.paymentId}</span> → <span class="id">${c.chargebackId}</span> · ${c.reasonCode}<br><span class="note">${esc(c.outcome)}${c.by ? " · by " + esc(c.by) : ""}${c.evidence && c.evidence.length ? ` · ${c.evidence.length} Google Drive file${c.evidence.length > 1 ? "s" : ""}` : ""}</span></li>`).join("") || `<li class="note">No cases yet.</li>`;
+}
+function renderAudit() {
+  const f = $("#audit-filter").value;
+  const xs = auditEntries().filter(a => !f || a.category === f).slice().reverse().slice(0, 300);
+  $("#audit-table").innerHTML = xs.length ? `<thead><tr><th>Time</th><th>User</th><th>Category</th><th>Action</th><th>Details</th></tr></thead><tbody>${xs.map(a => `<tr><td>${esc(a.time)}</td><td>${esc(a.actor || "")}</td><td>${esc(a.category)}</td><td>${esc(a.action)}</td><td style="white-space:normal">${esc(a.details)}</td></tr>`).join("")}</tbody>` : `<tbody><tr><td class="empty">Nothing logged yet.</td></tr></tbody>`;
+}
+function renderCounts() {
+  $("#c-ledger").textContent = S.payments.length; $("#c-review").textContent = queue().length; $("#c-disputes").textContent = S.cases.length;
+}
+function renderAll() { renderWho(); renderLedger(); renderReview(); renderDashboard(); renderDisputes(); renderAudit(); renderCounts(); renderChatAvail(); renderEval(); renderTeam(); }
+
+/* ---------- Ledger events (M1) ---------- */
+$("#ptype").onchange = renderForm;
+$("#fill").onclick = () => { const t = $("#ptype").value, v = TEST[t]; for (const el of $("#pform").elements) { if (el.type === "checkbox") el.checked = !!v[el.name]; else el.value = v[el.name] ?? ""; } };
+$("#submit").onclick = () => {
+  if (!can("capture")) { $("#presult").innerHTML = `<div class="result err">${esc(lockText("capture"))}</div>`; return; }
+  const t = $("#ptype").value;
+  try { const { p, out } = submit(t, readForm()); save();
+    $("#presult").innerHTML = `<div class="result ${p.status === "PENDING_REVIEW" ? "warn" : "ok"}"><b>${p.id}: ${out}.</b> Fee ${money(p.fee)} · risk ${p.risk} (${esc(p.reasons.join("; "))})</div>`;
+    renderForm(); renderAll();
+  } catch (e) {
+    if (!e || !e.rule) throw e;
+    audit("PAYMENT", "REJECTED_AT_VALIDATION", `${e.rule}: ${e.message}`);
+    $("#presult").innerHTML = `<div class="result err"><b>Not submitted (${esc(e.rule)}).</b> ${esc(e.message)}</div>`; renderAudit();
+  }
+};
+/* Load the sample day once. If data exists, ask first: loading again would duplicate payments. */
+function doLoadSample(replace) {
+  if (replace) {
+    const before = S.payments.length, keep = S.audit; // the audit log is append-only, so it is kept
+    S = blank(); S.audit = keep; advice = {}; reopening = null; draftCase = null;
+    audit("SYSTEM", "CLEAR_DATA", `${before} payments, decisions and disputes cleared before loading a fresh sample day`);
+  }
+  const n = loadSampleDay(); save();
+  $("#presult").innerHTML = `<div class="result ok">${replace ? "Cleared the old data and loaded" : "Loaded"} ${n} sample payments. ${queue().length} are waiting in the review queue.</div>`;
+  renderAll();
+}
+$("#sample").onclick = () => {
+  if (!can("sample")) { $("#presult").innerHTML = `<div class="result err">${esc(lockText("sample"))}</div>`; return; }
+  if (!S.payments.length) return doLoadSample(false);
+  const loads = S.audit.filter(a => a.action === "LOAD_SAMPLE_DAY").length;
+  const what = loads ? `The sample day is already loaded${loads > 1 ? ` (${loads} times)` : ""}.` : `There are already ${S.payments.length} payments.`;
+  $("#presult").innerHTML = `<div class="result warn"><b>${what}</b> Loading it again would add duplicate payments. Replace everything with one fresh sample day? This clears payments, decisions and disputes; the audit log keeps a record.
+    <div class="toolbar" style="margin:10px 0 0"><button class="btn" type="button" id="sample-replace">Replace with a fresh sample day</button><button class="btn ghost" type="button" id="sample-cancel">Keep current data</button></div></div>`;
+  $("#sample-replace").onclick = () => doLoadSample(true);
+  $("#sample-cancel").onclick = () => { $("#presult").innerHTML = ""; };
+  $("#sample-cancel").focus();
+};
+let resetArmed = null;
+$("#reset").onclick = () => {
+  if (!can("reset")) { const b0 = $("#reset"); b0.textContent = "Managers only"; setTimeout(() => { b0.textContent = "Reset all data"; }, 2500); return; }
+  const b = $("#reset");
+  if (!resetArmed) { b.textContent = "Click again to delete all data"; resetArmed = setTimeout(() => { resetArmed = null; b.textContent = "Reset all data"; }, 4000); return; }
+  clearTimeout(resetArmed); resetArmed = null; b.textContent = "Reset all data";
+  S = blank(); advice = {}; chatTurns = []; reopening = null; $("#chat-log").innerHTML = ""; save(); renderAll();
+};
+
+$("#rf-go").onclick = () => {
+  if (!can("refund")) { $("#rf-result").innerHTML = `<div class="result err">${esc(lockText("refund"))}</div>`; return; }
+  try {
+    const p = refund($("#rf-payment").value, $("#rf-amount").value, $("#rf-reason").value.trim());
+    $("#rf-result").innerHTML = `<div class="result ok"><b>${p.id}</b>: refunded. ${money(refundable(p))} left; status ${chip(p.status)}</div>`;
+    $("#rf-amount").value = ""; $("#rf-reason").value = ""; renderAll();
+  } catch (e) { if (!e || !e.rule) throw e; $("#rf-result").innerHTML = `<div class="result err"><b>Not refunded (${esc(e.rule)}).</b> ${esc(e.message)}</div>`; }
+};
+$("#ledger-filter").onchange = renderLedger;
+
+/* ---------- Review events (M2) ---------- */
+$("#triage-go").onclick = async () => {
+  if (!AI) { $("#triage-status").textContent = AI_OFF_MSG(); return; }
+  if (!can("decide")) { $("#triage-status").textContent = lockText("decide"); return; }
+  $("#triage-go").disabled = true; $("#triage-stop").hidden = false;
+  try {
+    const r = await runTriage(t => { $("#triage-status").textContent = t; });
+    $("#triage-status").textContent = r.total ? `Agent finished: ${r.done} of ${r.total} held payments now have a recommendation${r.failed ? `; ${r.failed} could not be checked` : ""}${r.stopped ? " (stopped early)" : ""}. You decide each one.` : "Every held payment already has a recommendation.";
+  } finally { $("#triage-stop").hidden = true; renderAll(); }
+};
+$("#triage-stop").onclick = () => { triageStop = true; $("#triage-status").textContent = "Stopping after the current payment…"; };
+let reopening = null; // decision id whose reopen form is open
+$("#decision-list").onclick = (ev) => {
+  const t = ev.target.closest("button"); if (!t) return;
+  if (t.dataset.reopen) { reopening = t.dataset.reopen; renderReview(); return; }
+  if (t.dataset.cancel) { reopening = null; renderReview(); return; }
+  if (t.dataset.confirm) {
+    if (!can("reopen")) return;
+    const r = reopen(t.dataset.confirm, ($("#reopen-note") ? $("#reopen-note").value.trim() : ""));
+    reopening = null; $("#undo-result").innerHTML = `<p class="note">${esc(r.msg)}</p>`; renderAll();
+  }
+};
+$("#undo").onclick = () => { if (!can("reopen")) return; const m = undo(); $("#undo-result").innerHTML = `<p class="note">${esc(m)}</p>`; renderAll(); };
+
+/* ---------- Dashboard events (M3) ---------- */
+$("#summary").onclick = async () => {
+  const b = $("#summary"); b.disabled = true; $("#summary-out").innerHTML = `<p class="status-line">Writing the summary…</p>`;
+  try { const text = await aiDaySummary(); S.lastSummary = text; save(); $("#summary-out").innerHTML = `<div class="ai-card"><div class="who">AI end-of-day summary</div><div style="white-space:pre-wrap">${esc(text)}</div></div>`; renderAudit(); }
+  catch (e) { $("#summary-out").innerHTML = `<p class="note">${esc(aiError(e))}</p>`; }
+  b.disabled = false;
+};
+async function exportFile(name, data, noteSel = "#export-note") {
+  const note = $(noteSel);
+  const dl = window.claude ? await window.claude.use("downloads").catch(() => null) : null;
+  if (!dl) {
+    if (window.claude) { note.textContent = "Downloads are not available in this view."; return; }
+    // Running from a file or website: a normal browser download works
+    const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([data], { type: "text/csv" })); a.download = name;
+    document.body.appendChild(a); a.click(); a.remove();
+    note.textContent = "Saved " + name + "."; audit("SYSTEM", "EXPORT", name); renderAudit(); return;
+  }
+  try { await dl.save({ filename: name, data }); note.textContent = "Saved " + name + "."; audit("SYSTEM", "EXPORT", name); renderAudit(); }
+  catch (e) { note.textContent = e && e.code === "declined" ? "Download cancelled." : "Download failed."; }
+}
+$("#export-tx").onclick = () => exportFile("payops_transactions.csv", csv([["id","created_at","type","party","amount","fee","net","risk_score","status","details","reject_reason"], ...S.payments.map(p => [p.id, p.createdAt, TYPE_NAME[p.type], p.party, p.amount, p.fee, netOf(p), p.risk, p.status, describe(p), p.rejectReason])]));
+$("#export-audit").onclick = () => exportFile("payops_audit_log.csv", csv([["timestamp","user","category","action","details"], ...auditEntries().map(a => [a.time, a.actor || "", a.category, a.action, a.details])]));
+function buildReport() {
+  const t = totals(), L = [];
+  L.push("# PAYOPS AI end-of-day report", "", `Generated ${nowStr()} by ${ME.name || "unknown"}`, "", "## Totals", "",
+    "| Type | Count | Settled | Held | Rejected | Contested | Refunds | Gross settled | Fees | Net |", "|---|---|---|---|---|---|---|---|---|---|");
+  t.forEach(r => L.push(`| ${r.type} | ${r.count} | ${r.settled} | ${r.held} | ${r.rejected} | ${r.contested} | ${money(r.refunds)} | ${money(r.grossSettled)} | ${money(r.fees)} | ${money(r.net)} |`));
+  L.push("", "## Still held for review", ""); const q = queue(); if (!q.length) L.push("None.");
+  q.forEach(p => { const r = getAdvice(p.id); L.push(`- ${p.id} ${TYPE_NAME[p.type]} ${money(p.amount)}, risk ${p.risk}${r ? ` (AI: ${adviceLabel(p, r)}, ${Math.round(r.confidence * 100)}%)` : ""}`); });
+  L.push("", "## Decisions", ""); if (!S.decisions.length) L.push("None.");
+  S.decisions.forEach(d => L.push(`- ${d.id} ${d.paymentId}: ${d.action.toLowerCase()}${d.by ? " by " + d.by : ""} at ${d.time.slice(11, 16)}${d.reason ? " – " + d.reason : ""}${d.reopenedAt ? " (reopened)" : ""}`));
+  L.push("", "## Disputes", ""); if (!S.cases.length) L.push("None.");
+  S.cases.forEach(c => L.push(`- ${c.reviewId}: ${c.paymentId} → ${c.chargebackId}, reason ${c.reasonCode}${c.by ? ", by " + c.by : ""}`));
+  if (S.lastSummary) L.push("", "## AI end-of-day summary", "", S.lastSummary);
+  const ev = (S.evalRuns || []).slice(-1)[0]; if (ev) L.push("", "## Latest AI evaluation", "", `${ev.passed} of ${ev.total} answered correctly (${ev.time}, run by ${ev.by || "unknown"})`);
+  return L.join("\n");
+}
+$("#export-report").onclick = () => exportFile("payops_end_of_day_report.md", buildReport());
+
+/* ---------- Dispute events (M4) ---------- */
+/* S1-27: a new dispute clears the previous escalation message */
+$("#d-payment").addEventListener("change", () => { $("#d-result").innerHTML = ""; $("#d-drive-out").innerHTML = ""; driveEvidence = null; });
+$("#d-complaint").addEventListener("input", () => { $("#d-result").innerHTML = ""; });
+$("#d-classify").onclick = async () => {
+  $("#d-result").innerHTML = "";
+  const id = $("#d-payment").value, complaint = $("#d-complaint").value.trim();
+  if (!id || !complaint) { $("#d-ai").innerHTML = `<p class="note">Choose a payment and enter the complaint first.</p>`; return; }
+  const b = $("#d-classify"); b.disabled = true; $("#d-ai").innerHTML = `<p class="status-line">Reading the complaint…</p>`;
+  try { const r = await classify(id, complaint); draftCase = { paymentId: id, complaint, ...r }; $("#d-code").value = r.reasonCode; $("#d-draft").disabled = false;
+    $("#d-ai").innerHTML = `<div class="ai-card"><div class="who">AI suggests reason code ${esc(r.reasonCode)}: ${esc(REASON_CODES[r.reasonCode])}</div><div>${esc(r.rationale || "")}</div>${Array.isArray(r.evidenceNeeded) && r.evidenceNeeded.length ? `<div class="note" style="margin-top:6px">Evidence to gather: ${esc(r.evidenceNeeded.join(", "))}</div>` : ""}</div>`; renderAudit(); }
+  catch (e) { $("#d-ai").innerHTML = `<p class="note">${esc(aiError(e))}</p>`; }
+  b.disabled = false;
+};
+$("#d-draft").onclick = async () => {
+  if (!draftCase) return; draftCase.reasonCode = $("#d-code").value;
+  const b = $("#d-draft"); b.disabled = true;
+  const box = document.createElement("div"); box.className = "ai-card"; box.innerHTML = `<div class="who">AI draft response (edit before sending)</div><textarea id="d-draft-text" style="min-height:160px">Writing…</textarea>`;
+  $("#d-ai").appendChild(box);
+  try { const text = await draftResponse(draftCase, ({ text }) => { $("#d-draft-text").value = text; }); $("#d-draft-text").value = text; draftCase.draft = text; renderAudit(); }
+  catch (e) { $("#d-draft-text").value = e && e.text ? e.text : ""; box.insertAdjacentHTML("beforeend", `<p class="note">${esc(aiError(e))}</p>`); }
+  b.disabled = false;
+};
+$("#d-escalate").onclick = () => {
+  if (!can("escalate")) { $("#d-result").innerHTML = `<div class="result err">${esc(lockText("escalate"))}</div>`; return; }
+  const id = $("#d-payment").value, complaint = $("#d-complaint").value.trim();
+  if (!id || !complaint) { $("#d-result").innerHTML = `<div class="result err">Choose a payment and enter the complaint first.</div>`; return; }
+  const draft = $("#d-draft-text") ? $("#d-draft-text").value : "";
+  try { const { reviewId, r } = escalate(id, complaint, $("#d-code").value, draft);
+    $("#d-result").innerHTML = `<div class="result ${r.p.status === "PENDING_REVIEW" ? "warn" : "ok"}"><b>${esc(reviewId)}</b>: chargeback ${r.p.id} created, ${esc(r.out.toLowerCase())}. Risk ${r.p.risk}.</div>`;
+    draftCase = null; $("#d-complaint").value = ""; $("#d-ai").innerHTML = ""; $("#d-draft").disabled = true; renderAll();
+  } catch (e) { if (!e || !e.rule) throw e; $("#d-result").innerHTML = `<div class="result err">${esc(e.message)}</div>`; }
+};
+
+/* =====================================================================
+   Shared: Google Drive connector (MCP): dispute evidence and report saving
+   ===================================================================== */
+let MCP = null;               // the viewer's claude.ai connectors, or null when this view has none
+let driveEvidence = null;     // { paymentId, files } from the last evidence search
+const DRIVE = "Google Drive";
+const safeId = id => /^[A-Z]{3}-\d{4}$/.test(String(id || "")) ? id : "";            // payment ids only: nothing else reaches the query
+const safeUrl = u => /^https:\/\/(docs|drive)\.google\.com\//.test(String(u || ""));  // links shown only for Google Docs or Drive
+function driveError(e, write) {
+  const c = e && e.code;
+  if (c === "server_not_connected") return "Google Drive isn’t connected. Add it in Settings › Connectors, then try again.";
+  if (c === "needs_reauth") return "Google Drive needs you to sign in again: Settings › Connectors › Google Drive.";
+  if (c === "not_granted" || c === "approval_required") return "This page needs your OK to use Google Drive. Allow it when claude.ai asks, or in the page’s Permissions menu.";
+  if (c === "selection_required") return "More than one Google Drive is connected; choose one when claude.ai asks.";
+  if (c === "blocked_by_policy") return "Your organization blocks this Google Drive action.";
+  if (c === "tool_error") return "Google Drive reported a problem: " + String((e && e.message) || "").slice(0, 160);
+  if (write && (c === "server_unavailable" || c === "upstream_error")) return "Google Drive didn’t answer, so the report may or may not have been saved. Check your Drive before trying again.";
+  if (c === "server_unavailable" || c === "upstream_error") return "Google Drive didn’t answer. Try again in a moment.";
+  return "The Google Drive request failed. Try again.";
+}
+async function findDriveEvidence(paymentId) {
+  const id = safeId(paymentId);
+  if (!id || !MCP) return [];
+  const r = await MCP.callTool(DRIVE, "search_files", { query: `title contains 'PAYOPS evidence' and title contains '${id}'`, pageSize: 5, snippetVerbosity: "BRIEF" }, { cache: false });
+  const files = (r && r.payload && Array.isArray(r.payload.files)) ? r.payload.files : [];
+  audit("DRIVE", "SEARCH_EVIDENCE", `${id}: ${files.length} evidence file${files.length === 1 ? "" : "s"} found in Google Drive`);
+  return files.slice(0, 5).map(f => ({ title: String(f.title || "Untitled"), url: String(f.viewUrl || ""), snippet: String(f.contentSnippet || "").replace(/^\s*1\.\s*/, "").slice(0, 300), modified: String(f.modifiedTime || "").slice(0, 10) }));
+}
+async function saveReportToDrive() {
+  const title = "PAYOPS end-of-day report " + nowStr().slice(0, 16);
+  const r = await MCP.callTool(DRIVE, "create_file", { title, textContent: buildReport(), contentMimeType: "text/plain" }, { cache: false });
+  const f = (r && r.payload) || {};
+  audit("DRIVE", "SAVE_REPORT", `${title} saved to Google Drive`);
+  return { title: String(f.title || title), url: String(f.viewUrl || "") };
+}
+const driveLink = f => safeUrl(f.url) ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.title)}</a>` : esc(f.title);
+$("#d-drive").onclick = async () => {
+  const id = $("#d-payment").value, out = $("#d-drive-out");
+  if (!MCP) { out.innerHTML = `<p class="note">Google Drive works on the claude.ai link once the Google Drive connector is added.</p>`; return; }
+  if (!can("dispute")) { out.innerHTML = `<p class="note">${esc(lockText("dispute"))}</p>`; return; }
+  if (!safeId(id)) { out.innerHTML = `<p class="note">Choose the disputed payment first.</p>`; return; }
+  const b = $("#d-drive"); b.disabled = true; out.innerHTML = `<p class="status-line">Searching Google Drive for “PAYOPS evidence ${esc(id)}”…</p>`;
+  try {
+    const files = await findDriveEvidence(id); driveEvidence = { paymentId: id, files };
+    out.innerHTML = files.length
+      ? `<div class="ai-card" style="border-color:var(--ink-2);background:var(--surface)"><div class="who" style="color:var(--ink-2)">Evidence in Google Drive (${files.length})</div><ul>${files.map(f => `<li>${driveLink(f)}${f.modified ? ` <span class="note">· ${esc(f.modified)}</span>` : ""}${f.snippet ? `<br><span class="note">${esc(f.snippet)}</span>` : ""}</li>`).join("")}</ul><div class="note" style="margin-top:6px">The AI draft uses this evidence, and the links are attached to the case when you escalate.</div></div>`
+      : `<p class="note">No files named “PAYOPS evidence ${esc(id)}” in Google Drive. Name evidence files that way so the app can find them.</p>`;
+    renderAudit();
+  } catch (e) { out.innerHTML = `<p class="note">${esc(driveError(e, false))}</p>`; }
+  b.disabled = false;
+};
+$("#drive-save").onclick = async () => {
+  const out = $("#drive-save-out");
+  if (!MCP) { out.textContent = "Google Drive works on the claude.ai link once the Google Drive connector is added."; return; }
+  if (!can("drive_save")) { out.textContent = lockText("drive_save"); return; }
+  const b = $("#drive-save"); b.disabled = true; out.textContent = "Saving the report to Google Drive…";
+  try { const f = await saveReportToDrive(); out.innerHTML = `Saved to Google Drive: ${driveLink(f)}`; renderAudit(); }
+  catch (e) { out.textContent = driveError(e, true); }
+  b.disabled = false;
+};
+
+/* =====================================================================
+   Shared: Ops chat (HW8 assistant, now with ledger tools)
+   ===================================================================== */
+let chatTurns = [];
+const CHAT_RULES = `You are the PayOps Ops Assistant inside a payments operations app. Answer questions about PayOps rules and today's payments. Use your tools to look up payments, history, the review queue and totals, and use quote_payment for any fee, limit or risk number: never calculate fees or risk scores yourself. You explain and recommend; you never approve, reject or refund. Never ask for full card numbers or CVVs. Keep answers short and name the rule you used.`;
+function renderChatAvail() {
+  const ok = !!AI; $("#chat-input").disabled = $("#chat-send").disabled = !ok;
+  if (!ok && !$("#chat-log").children.length) $("#chat-status").textContent = AI_OFF_MSG();
+  else if (ok && $("#chat-status").textContent === AI_OFF_MSG()) $("#chat-status").textContent = "";
+}
+function addMsg(who, text) { const d = document.createElement("div"); d.className = "msg " + who; d.textContent = text; $("#chat-log").appendChild(d); $("#chat-log").scrollTop = 1e9; return d; }
+$("#chat-form").onsubmit = async (ev) => {
+  ev.preventDefault(); const q = $("#chat-input").value.trim(); if (!q || !AI) return;
+  $("#chat-input").value = ""; addMsg("me", q); chatTurns.push({ role: "user", content: q });
+  const bubble = addMsg("bot", "Thinking…"); $("#chat-send").disabled = true;
+  try {
+    const turns = [{ role: "user", content: CHAT_RULES }, ...chatTurns.slice(-10)];
+    const opts = { onText: ({ text }) => { bubble.textContent = text; } };
+    if (AI_TOOLS) { opts.tools = toolList(["get_transaction", "get_party_history", "get_risk_rules", "get_review_queue", "get_totals", "quote_payment", "get_dispute_playbook"]); $("#chat-status").textContent = "The assistant may look up the ledger."; }
+    else { opts.cache = false; turns[0] = { role: "user", content: CHAT_RULES + "\nRules: " + JSON.stringify(RULES) + "\nTotals: " + JSON.stringify(totals()) }; }
+    const { text } = await AI(turns, opts);
+    bubble.textContent = text; chatTurns.push({ role: "assistant", content: text });
+    audit("AI", "CHAT", q.slice(0, 120)); renderAudit();
+  } catch (e) { bubble.textContent = (e && e.text) || aiError(e); chatTurns.pop(); }
+  $("#chat-send").disabled = false; $("#chat-status").textContent = "";
+};
+
+/* =====================================================================
+   Shared: built-in self-test (the same checks as the HW9 test results)
+   ===================================================================== */
+let lastTests = null;
+function runSelfTests() {
+  const keep = JSON.stringify(S), keepAdvice = advice, keepMsg = $("#presult").innerHTML, keepME = ME;
+  TESTING = true; ME = { id: "selftest", name: "Self-test", role: "manager", mode: keepME.mode };
+  let R;
+  try {
+
+ R=[]; const t=(id,area,test,input,expected,fn)=>{ let actual,pass; try{ const o=fn(); actual=o[0]; pass=o[1]; }catch(e){ actual='Error: '+(e.message||e.rule||e); pass=false; } R.push({id,area,test,input,expected,actual:String(actual),result:pass?'Pass':'Fail'}); };
+ const rej=(type,f)=>{ try{ buildPayment(type,f); return null; }catch(e){ return e; } };
+ const card=(o)=>Object.assign({party:'Test',amount:100,cardNumber:'4111111111111111',expiry:'12/29',cvv:'123'},o);
+ const q=a=>TOOLS.quote_payment.execute(a);
+ // ---- HW8 test cases on the rules engine ----
+ t('R1','Rules','Card over the limit','Card $12,000','Refused: card limit $10,000',()=>{const e=rej('card',card({amount:12000}));return [e?e.rule+': '+e.message:'accepted', !!e&&e.rule==='LIMIT'];});
+ t('R2','Rules','Wallet limit','Wallet $2,500 and $2,600','$2,500 accepted; $2,600 refused',()=>{const ok=!rej('wallet',{party:'T',amount:2500,walletId:'a@b.com'}); const e=rej('wallet',{party:'T',amount:2600,walletId:'a@b.com'}); return [(ok?'2,500 accepted':'2,500 refused')+'; '+(e?e.message:'2,600 accepted'), ok&&!!e];});
+ t('F1','Fees','Online international card fee','Card $3,000, online, international','$117.30',()=>{const r=q({type:'card',amount:3000,online:true,international:true});return ['$'+r.fee.toFixed(2), r.fee===117.3];});
+ t('F2','Fees','In-store card fee','Card $500, in-store','$11.10',()=>{const r=q({type:'card',amount:500});return ['$'+r.fee.toFixed(2), r.fee===11.1];});
+ t('F3','Fees','Wallet fee','Wallet $800','$12.00',()=>{const r=q({type:'wallet',amount:800});return ['$'+r.fee.toFixed(2), r.fee===12];});
+ t('K1','Risk','Online international card','Card $3,000, online, international','75, held',()=>{const r=q({type:'card',amount:3000,online:true,international:true});return [r.riskScore+', '+r.decision, r.riskScore===75&&r.decision.startsWith('HELD')];});
+ t('K2','Risk','Wallet on a new device','Wallet $1,200, new device','70, held (at threshold)',()=>{const r=q({type:'wallet',amount:1200,newDevice:true});return [r.riskScore+', '+r.decision, r.riskScore===70&&r.decision.startsWith('HELD')];});
+ t('K3','Risk','ACH to a known beneficiary','ACH $30,000, known beneficiary','25, settled',()=>{const r=q({type:'bank',amount:30000,rail:'ACH'});return [r.riskScore+', '+r.decision, r.riskScore===25&&r.decision==='SETTLED'];});
+ t('E3','Disputes','Fraud chargeback on $1,500','Chargeback 10.4, $1,500','Risk 80, held; if settled the business pays $1,515',()=>{S=blank(); const c=submit('card',card({amount:1500})); const cb=submit('chargeback',{party:'Test',amount:1500,originalId:c.p.id,reasonCode:'10.4'}); settle(cb.p); const net=netOf(cb.p); return ['risk '+cb.p.risk+', '+cb.out+'; net if settled '+net, cb.p.risk===80&&cb.out.startsWith('HELD FOR REVIEW')&&net===-1515];});
+ // ---- edge cases ----
+ t('M1-01','Validation','Exact card limit','Card $10,000.00','Accepted',()=>{const e=rej('card',card({amount:10000}));return [e?e.message:'accepted', !e];});
+ t('M1-02','Validation','One cent over the limit','Card $10,000.01','Refused',()=>{const e=rej('card',card({amount:10000.01}));return [e?e.rule:'accepted', !!e&&e.rule==='LIMIT'];});
+ t('M1-03','Validation','Mistyped card number','4111 1111 1111 1112','Refused by Luhn check',()=>{const e=rej('card',card({cardNumber:'4111111111111112'}));return [e?e.rule:'accepted', !!e&&e.rule==='LUHN_CHECK'];});
+ t('M1-04','Validation','Expired card','Expiry 01/24','Refused',()=>{const e=rej('card',card({expiry:'01/24'}));return [e?e.rule:'accepted', !!e&&e.rule==='EXPIRY'];});
+ t('M1-05','Validation','Short CVV','CVV 12','Refused',()=>{const e=rej('card',card({cvv:'12'}));return [e?e.rule:'accepted', !!e&&e.rule==='CVV'];});
+ t('M1-06','Validation','Bad routing number','Routing 123456789','Refused by ABA check',()=>{const e=rej('bank',{party:'A',beneficiary:'B',amount:100,rail:'ACH',routing:'123456789',account:'12345678'});return [e?e.rule:'accepted', !!e&&e.rule==='ABA_CHECK'];});
+ t('M1-07','Validation','RTP over its limit','RTP $100,000.01','Refused',()=>{const e=rej('bank',{party:'A',beneficiary:'B',amount:100000.01,rail:'RTP',routing:'021000021',account:'12345678'});return [e?e.rule:'accepted', !!e&&e.rule==='LIMIT'];});
+ t('M1-08','Validation','Invalid wallet ID','Wallet ID "abc"','Refused',()=>{const e=rej('wallet',{party:'T',amount:10,walletId:'abc'});return [e?e.rule:'accepted', !!e&&e.rule==='WALLET_ID'];});
+ t('M1-09','Fees','Wallet minimum fee','Wallet $10','$0.25',()=>{const r=q({type:'wallet',amount:10});return ['$'+r.fee.toFixed(2), r.fee===0.25];});
+ t('M1-10','Fees','Bank transfer fees','RTP and ACH','$0.45 and $0.25',()=>{const a=q({type:'bank',amount:500,rail:'RTP'}).fee,b=q({type:'bank',amount:500,rail:'ACH'}).fee;return ['$'+a.toFixed(2)+' and $'+b.toFixed(2), a===0.45&&b===0.25];});
+ t('M1-11','Risk','Medium-risk flag','Card $6,200, online','65, settled with medium flag',()=>{const r=q({type:'card',amount:6200,online:true});return [r.riskScore+', '+r.decision, r.riskScore===65&&r.decision.includes('medium')];});
+ t('M1-12','Security','Card data kept safe','Submit card 4111 1111 1111 1111, CVV 123','Only masked number stored; no CVV',()=>{S=blank(); const c=submit('card',card({})); const js=JSON.stringify(c.p); return [c.p.details.maskedPan+(js.includes('4111111111111111')?'; full number stored':'')+(js.includes('"cvv"')?'; CVV stored':''), !js.includes('4111111111111111')&&!js.includes('"cvv"')];});
+ t('M1-13','Sample day','Repeatable sample business day','Load twice from empty (seed 517)','Same 35 payments and totals both times',()=>{S=blank(); loadSampleDay(); const a=JSON.stringify(totals()); const n1=S.payments.length, h1=queue().length; S=blank(); loadSampleDay(); const b=JSON.stringify(totals()); return [n1+' payments, '+h1+' held; identical totals: '+(a===b), a===b&&n1===35&&h1===4];});
+ t('E1','Review','Queue order','Sample day','Oldest held payment first',()=>{S=blank(); loadSampleDay(); const qq=queue(); const ok=qq.every((p,i)=>i===0||qq[i-1].qkey<p.qkey); return [qq.map(p=>p.id).join(', '), ok];});
+ // ---- Reopen (decision history) ----
+ t('RO-01','Reopen','Reopen an older decision','Approve A, reject B, approve C; reopen B','Only B returns to the front of the queue',()=>{S=blank(); loadSampleDay(); const [a,b,c]=queue(); decide(a.id,'APPROVED'); decide(b.id,'REJECTED','test'); decide(c.id,'APPROVED'); const r=reopen('D0002',''); const q0=queue()[0].id; return [r.msg+' Others: '+a.status+', '+c.status, r.ok&&q0===b.id&&a.status==='SETTLED'&&c.status==='SETTLED'];});
+ t('RO-06','Reopen','Every reopen is logged','After RO-01','Audit entry REOPEN naming the original decision',()=>{const a=S.audit.filter(x=>x.action==='REOPEN'); return [a.length?a[a.length-1].details:'no entry', a.length===1&&a[0].details.includes('D0002')];});
+ t('RO-02','Reopen','Reopen twice','Reopen D0002 again','Refused: already reopened',()=>{const r=reopen('D0002',''); return [r.msg, !r.ok&&r.msg.includes('already reopened')];});
+ t('RO-03','Reopen','Old decision after the payment was decided again','Decide B again (D0004), then reopen D0002; reopen D0004 instead','D0002 refused; D0004 allowed',()=>{const b=queue()[0]; decide(b.id,'APPROVED'); const r1=reopenCheck(S.decisions.find(d=>d.id==='D0002')); const r2=reopenCheck(S.decisions.find(d=>d.id==='D0004')); return ['D0002: '+(r1||'allowed')+'; D0004: '+(r2||'allowed'), !!r1&&!r2];});
+ t('RO-04','Reopen','Payment changed after decision (like E2)','Approve a card, then charge it back, then reopen','Refused: payment changed',()=>{S=blank(); const c=submit('card',card({amount:4000,online:true,international:true})); decide(c.p.id,'APPROVED'); const cb=submit('chargeback',{party:'Test',amount:100,originalId:c.p.id,reasonCode:'13.1'}); decide(cb.p.id,'APPROVED'); const r=reopen('D0001',''); return [r.msg, !r.ok];});
+ t('RO-05','Reopen','Settled chargeback','Approve a held chargeback, then reopen','Refused: money already returned',()=>{S=blank(); const c=submit('card',card({amount:2000})); const cb=submit('chargeback',{party:'Test',amount:2000,originalId:c.p.id,reasonCode:'10.4'}); decide(cb.p.id,'APPROVED'); const d=S.decisions[S.decisions.length-1]; const r=reopen(d.id,''); return [r.msg, !r.ok&&r.msg.includes('cardholder')];});
+ // ---- duplicate guard ----
+ t('DG-01','Sample day','Replace keeps the audit log','Load sample day twice, then Replace','35 payments; audit log keeps both loads and the clear',()=>{S=blank(); loadSampleDay(); loadSampleDay(); const before=S.audit.length; doLoadSample(true); const acts=S.audit.map(a=>a.action).filter(a=>a==='LOAD_SAMPLE_DAY'||a==='CLEAR_DATA'); return [S.payments.length+' payments; '+acts.join(' → '), S.payments.length===35&&S.audit.length>before&&acts.join()==='LOAD_SAMPLE_DAY,LOAD_SAMPLE_DAY,CLEAR_DATA,LOAD_SAMPLE_DAY'];});
+
+
+ // ---- final project: refunds, chargebacks, roles, playbook ----
+ t('RF-01','Refunds','Partial refund','Refund $100 of a $500 card payment','$400 left; still settled; net lower by $100',()=>{S=blank(); const c=submit('card',card({amount:500})); refund(c.p.id,100,'test'); return [money(refundable(c.p))+' left; '+c.p.status+'; net '+netOf(c.p), refundable(c.p)===400&&c.p.status==='SETTLED'&&netOf(c.p)===round2(500-c.p.fee-100)];});
+ t('RF-02','Refunds','Bank transfer refund','Refund an RTP transfer','Refused: not refundable',()=>{S=blank(); const b=submit('bank',{party:'A',beneficiary:'B',amount:500,rail:'RTP',routing:'021000021',account:'12345678'}); let e=null; try{refund(b.p.id,10,'');}catch(x){e=x;} return [e?e.rule+': '+e.message:'refunded', !!e&&e.rule==='NOT_REFUNDABLE'];});
+ t('RF-03','Refunds','Refund more than is left','Refund $600 of a $500 card payment','Refused',()=>{S=blank(); const c=submit('card',card({amount:500})); let e=null; try{refund(c.p.id,600,'');}catch(x){e=x;} return [e?e.rule:'refunded', !!e&&e.rule==='LIMIT'];});
+ t('RF-04','Refunds','Full refund','Refund all of a $250 wallet payment','Status REFUNDED; nothing left',()=>{S=blank(); const w=submit('wallet',{party:'T',amount:250,walletId:'a@b.com'}); refund(w.p.id,250,''); return [w.p.status+'; '+money(refundable(w.p))+' left', w.p.status==='REFUNDED'&&refundable(w.p)===0];});
+ t('E2','Reopen','Reopen after a refund (HW8 case E2)','Approve a held card, refund part of it, then reopen','Refused: refunded after the decision',()=>{S=blank(); const c=submit('card',card({amount:3000,online:true,international:true})); decide(c.p.id,'APPROVED'); refund(c.p.id,50,''); const r=reopen('D0001',''); return [r.msg, !r.ok&&r.msg.includes('refunded')];});
+ t('CB-01','Chargebacks','Every chargeback is reviewed','Chargeback 13.1 on $100 (risk 20)','Held for review even at low risk',()=>{S=blank(); const c=submit('card',card({amount:100})); const cb=submit('chargeback',{party:'Test',amount:100,originalId:c.p.id,reasonCode:'13.1'}); return ['risk '+cb.p.risk+', '+cb.p.status, cb.p.risk===20&&cb.p.status==='PENDING_REVIEW'];});
+ t('CB-02','Chargebacks','Contest keeps the money','Contest the chargeback from CB-01','Contested; original stays settled; net 0',()=>{const cb=queue()[0]; decide(cb.id,'CONTESTED','evidence sent'); const o=S.payments.find(p=>p.id===cb.details.originalId); return [cb.status+'; original '+o.status+'; net '+netOf(cb), cb.status==='CONTESTED'&&o.status==='SETTLED'&&netOf(cb)===0];});
+ t('CB-03','Chargebacks','Chargeback after a refund','Refund $40 of $100, then dispute $100','Refused; at most $60 can be disputed',()=>{S=blank(); const c=submit('card',card({amount:100})); refund(c.p.id,40,''); let e=null; try{submit('chargeback',{party:'T',amount:100,originalId:c.p.id,reasonCode:'13.1'});}catch(x){e=x;} return [(e?'$100 refused':'$100 accepted')+'; can dispute '+money(refundable(c.p)), !!e&&refundable(c.p)===60];});
+ t('RL-01','Roles','Ops staff permissions','Role: Ops staff','Capture yes; decide, refund, reopen no',()=>{const ok=allowed('ops','capture')&&!allowed('ops','decide')&&!allowed('ops','refund')&&!allowed('ops','reopen'); return [ok?'as expected':'wrong permissions', ok];});
+ t('RL-02','Roles','Analyst permissions','Role: Analyst','Decide, refund, reopen yes; roles and reset no',()=>{const ok=allowed('analyst','decide')&&allowed('analyst','refund')&&allowed('analyst','reopen')&&!allowed('analyst','team')&&!allowed('analyst','reset'); return [ok?'as expected':'wrong permissions', ok];});
+ t('RL-03','Roles','Manager permissions','Role: Manager','Every action allowed',()=>{const ok=Object.keys(PERMS).every(a=>allowed('manager',a)); return [ok?'all allowed':'something missing', ok];});
+ t('RL-04','Roles','Maker-checker','Same person captured and tries to approve','Blocked; another person or sample-day payment allowed',()=>{const p={createdBy:'u1'}; const ok=makerCheckerBlock(p,'u1')&&!makerCheckerBlock(p,'u2')&&!makerCheckerBlock({createdBy:'system'},'u1'); return [ok?'as expected':'wrong', ok];});
+ t('RL-05','Roles','Decisions record who decided','Approve a held payment as the self-test user','Decision shows the user’s name',()=>{S=blank(); const c=submit('card',card({amount:3000,online:true,international:true})); decide(c.p.id,'APPROVED'); return ['by '+S.decisions[0].by, S.decisions[0].by==='Self-test'];});
+ t('PB-01','Playbook','Dispute playbook tool','get_dispute_playbook for 13.1','Evidence includes proof of delivery',()=>{const r=TOOLS.get_dispute_playbook.execute({reasonCode:'13.1'}); return [r.evidence.join('; '), r.evidence.some(x=>/delivery/.test(x))];});
+ t('PV-01','Roles','Manager previews another role','Manager previews Analyst, then stops','Analyst role under a separate test identity; back to Manager after',()=>{const kR=REAL,kM=ME; REAL={id:'m1',name:'Mgr',role:'manager',mode:'shared'}; ME=Object.assign({},REAL); setPreview('analyst',true); const a=ME.role+' | new id: '+(ME.id!=='m1')+' | '+ME.name; setPreview('',true); const b=ME.role; REAL=kR; ME=kM; return [a+' → '+b, a==='analyst | new id: true | Mgr (previewing Analyst)'&&b==='manager'];});
+ t('PV-02','Roles','Only managers can preview','Analyst tries to preview Ops staff','Nothing changes',()=>{const kR=REAL,kM=ME; REAL={id:'a1',name:'Ana',role:'analyst',mode:'shared'}; ME=Object.assign({},REAL); setPreview('ops',true); const ok=ME.role==='analyst'; REAL=kR; ME=kM; return [ok?'unchanged':'changed', ok];});
+ // ---- Google Drive connector (MCP) ----
+ t('DR-01','Google Drive','Only payment IDs reach the Drive search','CRD-0001, and an injection attempt',"CRD-0001 kept; anything else dropped",()=>{const a=safeId('CRD-0001'), b=safeId("CRD-0001' or title contains '"), c=safeId('drop'); return ['kept: '+a+' | injection: '+(b||'dropped')+' | other: '+(c||'dropped'), a==='CRD-0001'&&b===''&&c===''];});
+ t('DR-02','Google Drive','Only Google Docs or Drive links are shown','docs.google.com, drive.google.com and another site','Google links allowed; other sites not linked',()=>{const ok=safeUrl('https://docs.google.com/document/d/x/edit')&&safeUrl('https://drive.google.com/file/d/x/view')&&!safeUrl('https://evil.example.com/x')&&!safeUrl('javascript:alert(1)'); return [ok?'as expected':'wrong', ok];});
+ t('DR-03','Google Drive','Clear message for each connector problem','Not connected; sign-in expired; save timed out','Says how to fix it; warns a save may have happened',()=>{const a=driveError({code:'server_not_connected'},false), b=driveError({code:'needs_reauth'},false), c=driveError({code:'server_unavailable'},true); const ok=/Settings/.test(a)&&/sign in again/.test(b)&&/may or may not/.test(c); return [ok?'messages correct':'wrong', ok];});
+    // UI check: the warning before loading the sample day again
+    S = blank(); loadSampleDay(); $("#sample").onclick();
+    const txt = $("#presult").textContent;
+    R.push({ id: "DG-02", area: "Sample day", test: "Warning before loading again", input: "Click Load sample business day with data present",
+      expected: "Warning with Replace / Keep choices; no duplicates", actual: txt.slice(0, 110) + "; payments: " + S.payments.length,
+      result: txt.includes("already loaded") && S.payments.length === 35 ? "Pass" : "Fail" });
+  } finally {
+    TESTING = false; ME = keepME; S = JSON.parse(keep); advice = keepAdvice; reopening = null; save();   // put the user's data back
+    $("#presult").innerHTML = keepMsg;
+  }
+  return R;
+}
+function renderTests(R) {
+  const pass = R.filter(r => r.result === "Pass").length;
+  $("#tests-kpis").innerHTML = [[R.length, "Checks run"], [pass, "Passed"], [R.length - pass, "Failed"], [nowStr().slice(0, 16), "Run at"]]
+    .map(([v, l]) => `<div class="kpi"><div class="v">${esc(v)}</div><div class="l">${l}</div></div>`).join("");
+  $("#tests-table").innerHTML = `<thead><tr><th>ID</th><th>Area</th><th>Test and input</th><th>Expected</th><th>Actual result</th><th>Result</th></tr></thead><tbody>${
+    R.map(r => `<tr><td class="id">${esc(r.id)}</td><td>${esc(r.area)}</td><td style="white-space:normal;min-width:220px">${esc(r.test)}: ${esc(r.input)}</td><td style="white-space:normal;min-width:160px">${esc(r.expected)}</td><td style="white-space:normal;min-width:200px">${esc(r.actual)}</td><td>${r.result === "Pass" ? '<span class="chip st-SETTLED">Pass</span>' : '<span class="chip st-REJECTED">Fail</span>'}</td></tr>`).join("")}</tbody>`;
+}
+$("#run-tests").onclick = () => {
+  const R = runSelfTests(); lastTests = R; renderTests(R); renderAll();
+  $("#export-tests").disabled = false;
+  audit("SYSTEM", "SELF_TEST", `${R.filter(r => r.result === "Pass").length} of ${R.length} checks passed`); renderAudit();
+};
+$("#export-tests").onclick = () => { if (lastTests) exportFile("payops_test_results.csv", csv([["id","area","test","input","expected","actual","result"], ...lastTests.map(r => [r.id, r.area, r.test, r.input, r.expected, r.actual, r.result])]), "#tests-note"); };
+
+/* =====================================================================
+   Shared: automated AI evaluation (FR-20): the HW8 test set as an eval
+   ===================================================================== */
+const EVAL_CASES = [
+  { id: "R1", q: "Can I take a $12,000 card payment?", label: "No: card limit is $10,000", expect: [/10,000|10000/] },
+  { id: "R2", q: "What is the mobile wallet limit per payment?", label: "$2,500", expect: [/2,500|2500/] },
+  { id: "R3", q: "Can I refund an RTP bank transfer?", label: "No: bank transfers cannot be refunded", expect: [/\b(no|cannot|can't|not)\b/i, /irrevocable|cannot be refunded|can't be refunded|not refundable|no refund/i] },
+  { id: "F1", q: "What is the fee on a $3,000 online, international card payment?", label: "$117.30", expect: [/117\.30/] },
+  { id: "F2", q: "What is the fee on a $500 in-store card payment?", label: "$11.10", expect: [/11\.10/] },
+  { id: "F3", q: "What is the fee on an $800 mobile wallet payment?", label: "$12.00", expect: [/\$12(\.00)?\b/] },
+  { id: "K1", q: "What risk score does a $3,000 online, international card payment get, and is it held?", label: "75, held", expect: [/\b75\b/, /held|review/i] },
+  { id: "K2", q: "What risk score does a $1,200 mobile wallet payment from a new device get, and is it held?", label: "70, held", expect: [/\b70\b/, /held|review/i] },
+  { id: "K3", q: "What risk score does a $30,000 ACH transfer to a known beneficiary get?", label: "25, settled", expect: [/\b25\b/, /settle/i] },
+  { id: "E1", q: "A payment was held for review. What happens next?", label: "It waits in the review queue; an analyst decides", expect: [/queue|review/i, /analyst|person|human|staff/i] },
+  { id: "E2", q: "Can a review decision be reopened after the payment was refunded?", label: "No: the payment changed", expect: [/\b(no|cannot|can't|not)\b/i] },
+  { id: "E3", q: "A $1,500 chargeback with reason code 10.4 arrives. What is its risk score and does it need review?", label: "80; an analyst reviews it", expect: [/\b80\b/, /review|held|analyst/i] }
+];
+let evalStop = false, lastEval = null;
+async function runEval(progress) {
+  evalStop = false; const results = [];
+  for (const c of EVAL_CASES) {
+    if (evalStop) break;
+    progress(`Asking ${c.id} (${results.length + 1} of ${EVAL_CASES.length})…`);
+    let answer = "", pass = false, stop = false;
+    try {
+      const turns = [{ role: "user", content: CHAT_RULES + "\nAnswer in at most three sentences.\nQuestion: " + c.q }];
+      const opts = { cache: false };
+      if (AI_TOOLS) opts.tools = toolList(["get_transaction", "get_party_history", "get_risk_rules", "get_review_queue", "get_totals", "quote_payment", "get_dispute_playbook"]);
+      else turns[0].content += "\nRules: " + JSON.stringify(RULES);
+      answer = (await AI(turns, opts)).text || "";
+      pass = c.expect.every(rx => rx.test(answer));
+    } catch (e) { answer = "Error: " + aiError(e); stop = !!(e && (e.code === "rate_limited" || e.code === "not_granted")); }
+    results.push({ id: c.id, q: c.q, expected: c.label, answer: answer.slice(0, 400), pass });
+    renderEvalTable(results);
+    if (stop) break;
+  }
+  const passed = results.filter(r => r.pass).length;
+  const run = { time: nowStr(), by: ME.name || "", passed, total: results.length, results };
+  S.evalRuns = (S.evalRuns || []).slice(-4).concat([run]); save();
+  audit("AI", "EVALUATION", `${passed} of ${results.length} HW8 test questions answered correctly`);
+  lastEval = run; return run;
+}
+function renderEvalTable(results) {
+  const pass = results.filter(r => r.pass).length;
+  $("#eval-kpis").innerHTML = [[results.length, "Questions asked"], [pass, "Answered correctly"], [results.length ? Math.round(pass / results.length * 100) + "%" : "–", "Pass rate"]]
+    .map(([v, l]) => `<div class="kpi"><div class="v">${esc(v)}</div><div class="l">${l}</div></div>`).join("");
+  $("#eval-table").innerHTML = `<thead><tr><th>ID</th><th>Question</th><th>Expected</th><th>AI answer</th><th>Result</th></tr></thead><tbody>${results.map(r => `<tr><td class="id">${esc(r.id)}</td><td style="white-space:normal;min-width:200px">${esc(r.q)}</td><td style="white-space:normal;min-width:140px">${esc(r.expected)}</td><td style="white-space:normal;min-width:260px">${esc(r.answer)}</td><td>${r.pass ? '<span class="chip st-SETTLED">Pass</span>' : '<span class="chip st-REJECTED">Fail</span>'}</td></tr>`).join("")}</tbody>`;
+}
+let evalRunning = false;
+function renderEval() {
+  const last = lastEval || (S.evalRuns || []).slice(-1)[0];
+  if (last && !evalRunning) renderEvalTable(last.results);
+  $("#eval-history").innerHTML = (S.evalRuns || []).slice().reverse().map(r => `<li>${esc(r.time)} · ${r.passed} of ${r.total} correct${r.by ? " · run by " + esc(r.by) : ""}</li>`).join("") || `<li class="note">No runs yet.</li>`;
+  $("#eval-go").disabled = evalRunning || !AI || !can("evaluate");
+  $("#eval-lock").textContent = !AI ? AI_OFF_MSG() : (can("evaluate") ? "" : lockText("evaluate"));
+  $("#eval-export").disabled = !last;
+}
+$("#eval-go").onclick = async () => {
+  if (!AI || !can("evaluate") || evalRunning) return;
+  evalRunning = true; $("#eval-go").disabled = true; $("#eval-stop").hidden = false;
+  try { const run = await runEval(t => { $("#eval-status").textContent = t; }); $("#eval-status").textContent = `Finished: ${run.passed} of ${run.total} answered correctly.`; }
+  finally { evalRunning = false; $("#eval-stop").hidden = true; renderAll(); }
+};
+$("#eval-stop").onclick = () => { evalStop = true; $("#eval-status").textContent = "Stopping after the current question…"; };
+$("#eval-export").onclick = () => { const last = lastEval || (S.evalRuns || []).slice(-1)[0]; if (last) exportFile("payops_ai_evaluation.csv", csv([["id", "question", "expected", "ai_answer", "result"], ...last.results.map(r => [r.id, r.q, r.expected, r.answer, r.pass ? "Pass" : "Fail"])]), "#eval-status"); };
+
+/* ---------- Routing between screens ---------- */
+const VIEWS = ["ledger", "review", "dashboard", "disputes", "chat", "audit", "tests", "eval", "team"];
+function route() {
+  const v = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "ledger";
+  document.querySelectorAll("section[data-section]").forEach(s => s.hidden = s.dataset.section !== v);
+  document.querySelectorAll("nav.side a").forEach(a => { if (a.dataset.view === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
+}
+window.addEventListener("hashchange", route);
+$("#audit-filter").onchange = renderAudit;
+renderForm(); route(); renderAll();
+/* Sign in: Claude account + shared team database on claude.ai; demo sign-in for the offline copy. */
+(async () => {
+  let ok = false;
+  try { ok = await connectTeam(); } catch (e) { ok = false; }
+  if (!ok) startDemoSignIn();
+  renderAll();
+})();
+/* Google Drive connector (MCP): null when this view has no connectors (offline copy) */
+(async () => {
+  try { MCP = window.claude ? await window.claude.use("mcp") : null; } catch (e) { MCP = null; }
+  renderAll();
+})();
+/* Light up AI features once the claude.ai runtime answers (null = no AI in this view). */
+(async () => {
+  try {
+    AI = window.claude ? await window.claude.use("sample") : null;
+    if (AI) { const lim = await AI.limits().catch(() => null); AI_TOOLS = !!(lim && lim.tools); }
+  } catch (e) { AI = null; }
+  renderAll();
+})();
+</script>
+</body>
+</html>

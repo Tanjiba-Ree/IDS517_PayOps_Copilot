@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PAYOPS AI Copilot</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<div class="zip-warn" style="background:#FFF4D6;border:2px solid #C98A00;color:#3A2A00;padding:14px 18px;margin:12px;border-radius:8px;font:16px/1.5 Arial,sans-serif">
+<b>This page opened without its style and code files.</b> You most likely opened index.html from inside the zip.<br>
+Fix: close this tab, right-click the zip file &rarr; <b>Extract All</b>, open the extracted <b>PayOps_AI_Copilot_Source_Code</b> folder and double-click <b>index.html</b> there.<br>
+Or double-click <b>PayOps_AI_Copilot_OneFile.html</b> (in the same folder), which works on its own.</div>
+<div class="app">
+<nav class="side" aria-label="Screens">
+  <div class="brand-card"><img src="data:image/png;base64,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" width="440" height="320" alt="PAYOPS AI Operations Assistant logo"></div>
+  <div class="brand-sub">Copilot: payments operations with AI advice</div>
+  <img class="brand-mini" src="data:image/png;base64,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" width="128" height="90" alt="PAYOPS AI">
+  <div class="whoami" id="whoami">Signing in…</div>
+  <a href="#ledger" data-view="ledger">Ledger <span class="count" id="c-ledger">0</span></a>
+  <a href="#review" data-view="review">Review queue <span class="count" id="c-review">0</span></a>
+  <a href="#dashboard" data-view="dashboard">Dashboard</a>
+  <a href="#disputes" data-view="disputes">Disputes <span class="count" id="c-disputes">0</span></a>
+  <a href="#chat" data-view="chat">Ops chat</a>
+  <a href="#audit" data-view="audit">Audit log</a>
+  <a href="#tests" data-view="tests">Self-test</a>
+  <a href="#eval" data-view="eval">AI evaluation</a>
+  <a href="#team" data-view="team">Team and roles</a>
+  <div class="side-foot">IDS 517 final project · Tanjiba Sultana
+    <button type="button" id="reset">Reset all data</button>
+  </div>
+</nav>
+<main>
+
+<!-- ================= M1 Ledger (Tanjiba) ================= -->
+<section id="v-ledger" data-section="ledger">
+  <h1>Ledger</h1>
+  <p class="lede">Capture a payment and the rules engine validates it, calculates the fee and scores risk. Scores of 70 or more go to the review queue.</p>
+  <div class="panel" style="margin-bottom:16px">
+    <h2>New payment</h2>
+    <div class="toolbar">
+      <label style="flex-direction:row;align-items:center;gap:8px;color:var(--text)">Type
+        <select id="ptype"><option value="card">Card</option><option value="wallet">Mobile wallet</option><option value="bank">Bank transfer</option></select>
+      </label>
+      <button class="btn ghost" type="button" id="fill">Fill test data</button>
+    </div>
+    <form class="grid" id="pform" autocomplete="off"></form>
+    <div class="toolbar" style="margin-top:12px;margin-bottom:0">
+      <button class="btn" type="button" id="submit">Submit payment</button>
+      <button class="btn ghost" type="button" id="sample">Load sample business day</button>
+    </div>
+    <p class="locked" id="submit-lock"></p>
+    <div id="presult"></div>
+  </div>
+  <div class="panel" style="margin-bottom:16px">
+    <h2>Refund a payment</h2>
+    <p class="note">Settled card and wallet payments only; bank transfers cannot be refunded (RTP is irrevocable). Analysts and managers only.</p>
+    <div class="toolbar" style="margin-top:10px;margin-bottom:0">
+      <label style="flex-direction:row;align-items:center;gap:8px;color:var(--text)">Payment <select id="rf-payment"></select></label>
+      <label style="flex-direction:row;align-items:center;gap:8px;color:var(--text)">Amount <input id="rf-amount" type="number" step="0.01" min="0" style="width:120px"></label>
+      <label style="flex-direction:row;align-items:center;gap:8px;color:var(--text)">Reason <input id="rf-reason" placeholder="Item returned"></label>
+      <button class="btn" type="button" id="rf-go">Refund</button>
+    </div>
+    <p class="locked" id="rf-lock"></p>
+    <div id="rf-result"></div>
+  </div>
+  <div class="toolbar">
+    <label style="flex-direction:row;align-items:center;gap:8px;color:var(--text)">Show <select id="ledger-filter"><option value="">All payments</option><option value="SETTLED">Settled</option><option value="PENDING_REVIEW">Pending review</option><option value="REJECTED">Rejected</option><option value="CONTESTED">Contested</option><option value="CHARGED_BACK">Charged back</option><option value="REFUNDED">Refunded</option></select></label>
+    <span class="note" id="ledger-count"></span><span class="note" id="sync-note"></span>
+  </div>
+  <div class="table-wrap"><table id="ledger-table"></table></div>
+</section>
+
+<!-- ================= M2 Review queue ================= -->
+<section id="v-review" data-section="review" hidden>
+  <h1>Review queue</h1>
+  <p class="lede">Held payments wait here, oldest first. Ask the AI copilot for a recommendation; you make the decision. Chargebacks always come here, to be accepted or contested.</p>
+  <div class="panel" style="margin-bottom:16px">
+    <h2>AI triage agent</h2>
+    <p class="note">The agent works through every held payment on its own: for each one it calls the ledger tools (payment, customer history, risk rules, and the dispute playbook for chargebacks) and leaves a recommendation. It never approves or rejects; an analyst decides each payment.</p>
+    <div class="toolbar" style="margin-top:10px;margin-bottom:0"><button class="btn ai" type="button" id="triage-go">Run triage agent on the whole queue</button><button class="btn ghost" type="button" id="triage-stop" hidden>Stop</button></div>
+    <div class="status-line" id="triage-status"></div>
+  </div>
+  <div class="row">
+    <div class="panel grow" id="next-panel"></div>
+    <div class="panel" style="flex:1 1 300px">
+      <h2>Waiting</h2>
+      <ol class="list" id="queue-list"></ol>
+      <h2 style="margin-top:18px">Decision history</h2>
+      <p class="note" style="margin:-6px 0 4px">Reopen any decision whose payment hasn’t changed since; it goes back to the front of the queue.</p>
+      <ul class="list" id="decision-list"></ul>
+      <button class="btn ghost" type="button" id="undo" style="margin-top:10px">Undo last decision</button>
+      <div id="undo-result"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= M3 Dashboard ================= -->
+<section id="v-dashboard" data-section="dashboard" hidden>
+  <h1>Settlement dashboard</h1>
+  <p class="lede">End-of-day totals by payment type. Chargebacks count as money leaving the business.</p>
+  <div class="kpis" id="kpis"></div>
+  <div class="row">
+    <div class="panel grow"><h2>Gross settled by payment type</h2><div id="chart"></div></div>
+    <div class="panel grow"><h2>Payments by hour</h2><div id="trend"></div></div>
+    <div class="panel grow">
+      <h2>End-of-day summary</h2>
+      <p class="note">The AI reads the totals below and the held items, then writes a short brief for the ops manager.</p>
+      <button class="btn ai" type="button" id="summary">Write AI summary</button>
+      <div id="summary-out"></div>
+    </div>
+  </div>
+  <div class="table-wrap" style="margin-top:16px"><table id="totals-table"></table></div>
+  <div class="toolbar" style="margin-top:12px">
+    <button class="btn ghost" type="button" id="export-tx">Export transactions CSV</button>
+    <button class="btn ghost" type="button" id="export-audit">Export audit log CSV</button>
+    <button class="btn ghost" type="button" id="export-report">Download end-of-day report</button>
+    <span class="note" id="export-note"></span>
+    <button class="btn ghost" type="button" id="drive-save" hidden>Save report to Google Drive</button>
+  </div>
+  <div class="note" id="drive-save-out" style="margin-top:6px"></div>
+</section>
+
+<!-- ================= M4 Disputes ================= -->
+<section id="v-disputes" data-section="disputes" hidden>
+  <h1>Disputes</h1>
+  <p class="lede">Log a customer complaint against a settled card payment. The AI suggests a reason code and drafts the response; nothing is escalated until you approve.</p>
+  <div class="row">
+    <div class="panel grow">
+      <h2>New dispute</h2>
+      <label>Disputed card payment<select id="d-payment"></select></label>
+      <label style="margin-top:10px">Customer complaint<textarea id="d-complaint" placeholder="Example: I ordered a desk lamp three weeks ago and it never arrived."></textarea></label>
+      <div class="toolbar" style="margin-top:10px">
+        <button class="btn ai" type="button" id="d-classify">Suggest reason code</button>
+        <button class="btn ai" type="button" id="d-draft" disabled>Draft response</button>
+      </div>
+      <div class="toolbar" style="margin-top:8px;margin-bottom:0"><button class="btn ghost" type="button" id="d-drive" hidden>Find evidence in Google Drive</button></div>
+      <div id="d-drive-out"></div>
+      <div id="d-ai"></div>
+      <div class="toolbar" style="margin-top:12px">
+        <label style="flex-direction:row;align-items:center;gap:8px;color:var(--text)">Reason code
+          <select id="d-code"></select>
+        </label>
+        <button class="btn" type="button" id="d-escalate">Approve and escalate</button>
+      </div>
+      <div id="d-result"></div>
+    </div>
+    <div class="panel" style="flex:1 1 300px"><h2>Escalated cases</h2><ul class="list" id="case-list"></ul></div>
+  </div>
+</section>
+
+<!-- ================= Shared: Ops chat ================= -->
+<section id="v-chat" data-section="chat" hidden>
+  <h1>Ops chat</h1>
+  <p class="lede">Ask about PayOps rules or today’s payments. The assistant looks up the ledger with its tools and calculates fees and risk with the rules engine, so every number comes from the app.</p>
+  <div class="panel">
+    <div class="chat" id="chat-log" aria-live="polite"></div>
+    <div class="status-line" id="chat-status"></div>
+    <form class="chat-form" id="chat-form">
+      <input id="chat-input" placeholder="Why is WAL-0003 held? What is the fee on a $3,000 online international card payment?" autocomplete="off">
+      <button class="btn ai" type="submit" id="chat-send">Ask</button>
+    </form>
+  </div>
+</section>
+
+<!-- ================= Shared: Audit log ================= -->
+<section id="v-audit" data-section="audit" hidden>
+  <h1>Audit log</h1>
+  <p class="lede">Every user action and every AI recommendation, newest first.</p>
+  <div class="toolbar"><label style="flex-direction:row;align-items:center;gap:8px;color:var(--text)">Show
+    <select id="audit-filter"><option value="">All</option><option>PAYMENT</option><option>REVIEW</option><option>AI</option><option>DISPUTE</option><option>DRIVE</option><option>SYSTEM</option></select></label></div>
+  <div class="table-wrap"><table id="audit-table"></table></div>
+</section>
+
+<!-- ================= Shared: built-in self-test ================= -->
+<section id="v-tests" data-section="tests" hidden>
+  <h1>Self-test</h1>
+  <p class="lede">Runs every automated check on the rules engine, refunds, chargebacks, roles, Reopen and the duplicate guard, and compares each result with its expected answer. Your data is saved first and put back afterwards. AI features are tested live and are not part of this run.</p>
+  <div class="toolbar">
+    <button class="btn" type="button" id="run-tests">Run all tests</button>
+    <button class="btn ghost" type="button" id="export-tests" disabled>Export results CSV</button>
+    <span class="note" id="tests-note"></span>
+  </div>
+  <div class="kpis" id="tests-kpis"></div>
+  <div class="table-wrap"><table id="tests-table"><tbody><tr><td class="empty">Click Run all tests. It takes about a second.</td></tr></tbody></table></div>
+</section>
+<!-- ================= Shared: automated AI evaluation (FR-20) ================= -->
+<section id="v-eval" data-section="eval" hidden>
+  <h1>AI evaluation</h1>
+  <p class="lede">Asks the Ops chat agent the 12 HW8 test questions and scores each answer against the known correct value. Results are saved so the team can compare runs.</p>
+  <div class="toolbar">
+    <button class="btn ai" type="button" id="eval-go">Run AI evaluation</button>
+    <button class="btn ghost" type="button" id="eval-stop" hidden>Stop</button>
+    <button class="btn ghost" type="button" id="eval-export" disabled>Export results CSV</button>
+  </div>
+  <p class="locked" id="eval-lock"></p>
+  <div class="status-line" id="eval-status"></div>
+  <div class="kpis" id="eval-kpis"></div>
+  <div class="table-wrap"><table id="eval-table"><tbody><tr><td class="empty">Click Run AI evaluation. Each question takes a few seconds.</td></tr></tbody></table></div>
+  <h2 style="margin-top:18px">Past runs</h2>
+  <ul class="list" id="eval-history"></ul>
+</section>
+
+<!-- ================= Shared: team and roles (FR-18) ================= -->
+<section id="v-team" data-section="team" hidden>
+  <h1>Team and roles</h1>
+  <p class="lede">Who can do what. Ops staff capture payments and log disputes; analysts decide held payments, refunds, chargebacks and reopens; managers can do everything and manage roles. Nobody can approve a payment they captured themselves (maker-checker).</p>
+  <div class="panel" id="team-panel"></div>
+  <h2 style="margin-top:18px">Permissions</h2>
+  <div class="table-wrap"><table id="perm-table"></table></div>
+</section>
+
+<div class="signin" id="signin" hidden role="dialog" aria-modal="true" aria-labelledby="signin-title">
+  <div class="box">
+    <h2 id="signin-title">Sign in to PAYOPS AI Copilot</h2>
+    <p class="note">This offline copy uses a demo sign-in: choose a demo user to see the app with their role. On claude.ai you are signed in with your Claude account instead.</p>
+    <div class="users" id="signin-users"></div>
+  </div>
+</div>
+</main>
+</div>
+<script src="js/01-core.js"></script>
+<script src="js/02-signin-roles.js"></script>
+<script src="js/03-m1-rules-engine.js"></script>
+<script src="js/04-ai-gateway.js"></script>
+<script src="js/05-m2-fraud-copilot.js"></script>
+<script src="js/06-m3-dashboard.js"></script>
+<script src="js/07-m4-disputes.js"></script>
+<script src="js/08-ui-rendering.js"></script>
+<script src="js/09-screen-events.js"></script>
+<script src="js/10-google-drive-mcp.js"></script>
+<script src="js/11-ops-chat.js"></script>
+<script src="js/12-self-test.js"></script>
+<script src="js/13-ai-evaluation.js"></script>
+<script src="js/14-app.js"></script>
+</body>
+</html>
